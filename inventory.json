@@ -1,0 +1,379 @@
+{
+  "era": "renewal",
+  "scope": "client_text",
+  "discovery_complete": false,
+  "completion_definition": "A complete file covers all translatable text in the recorded source. Completeness does not imply exhaustive in-game validation.",
+  "status_values": [
+    "not_started",
+    "in_progress",
+    "complete",
+    "deferred"
+  ],
+  "progress_definition": "Record counts describe translation coverage. A null total means the source has not yet been counted; completion percentage is completed / total * 100 when total is known.",
+  "files": [
+    {
+      "source": {
+        "client": "kRO",
+        "path": "data/mapnametable.txt",
+        "container": "data.grf"
+      },
+      "destination": "src/data/mapnametable.txt",
+      "description": "General map labels",
+      "client_support": "supported",
+      "status": "complete",
+      "progress": {
+        "total": 943,
+        "completed": 943
+      }
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "System/mapInfo_true.lub",
+        "container": null
+      },
+      "destination": "src/System/mapInfo.lub",
+      "description": "Map display names and entry-banner titles and subtitles",
+      "client_support": "supported",
+      "status": "complete",
+      "progress": {
+        "total": 1134,
+        "completed": 1134
+      }
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "data/luafiles514/lua files/datainfo/titletable.lub",
+        "container": "data.grf"
+      },
+      "destination": "src/data/luafiles514/lua files/datainfo/titletable.lub",
+      "description": "Character title names",
+      "client_support": "supported",
+      "status": "complete",
+      "progress": {
+        "total": 47,
+        "completed": 47
+      }
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "data/msgstringtable.csv",
+        "container": "data.grf"
+      },
+      "destination": "src/data/msgstringtable.csv",
+      "description": "Client interface messages and errors",
+      "client_support": "supported",
+      "status": "complete",
+      "progress": {
+        "total": 4467,
+        "completed": 4467
+      },
+      "notes": "Base64-encoded UTF-8 identifiers and messages. Loaded after the TXT message tables and matched by row position. English command spellings are checked against reference tables and client support; legacy commands may remain unavailable. The two retired billing messages use corrected numeric placeholders. Inventory tabs use three-character labels to fit the vertical buttons. Equipment tabs use General and Costume; Costume includes shadow equipment. Equipment visibility uses Show Equip. Equipment controls use Equipment Set and Unequip All. Stat descriptions use inline captions and green emphasis. Stat labels use uppercase abbreviations, including MATK, MDEF and ASPD, with Critical for the critical-chance label. Explanations use critical hit chance and Creativity for CRT."
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "data/msgstringtable.txt",
+        "container": "data.grf"
+      },
+      "destination": "src/data/msgstringtable.txt",
+      "description": "Legacy client messages",
+      "client_support": "supported",
+      "status": "deferred",
+      "progress": {
+        "total": null,
+        "completed": 0
+      },
+      "notes": "The current kRO archive has no entry at this path. The client tries this table first, then msgstringtablel.txt if empty or missing, then applies the CSV. A legacy override needs a matching source and index layout."
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "tipOfTheDay.txt",
+        "container": null
+      },
+      "destination": null,
+      "description": "Legacy gameplay tips",
+      "client_support": "unsupported",
+      "status": "deferred",
+      "progress": {
+        "total": null,
+        "completed": 0
+      },
+      "notes": "ROenglishRE contains a translation, but the client leaves loading this file as a TODO. Translating it alone would have no effect."
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "GuildTip.txt",
+        "container": null
+      },
+      "destination": null,
+      "description": "Legacy guild tips",
+      "client_support": "unsupported",
+      "status": "deferred",
+      "progress": {
+        "total": null,
+        "completed": 0
+      },
+      "notes": "The client leaves loading this file as a TODO."
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "System/itemInfo_true.lub",
+        "container": null
+      },
+      "destination": "src/System/itemInfo.lua",
+      "description": "Item names and descriptions",
+      "client_support": "supported",
+      "status": "not_started",
+      "progress": {
+        "total": null,
+        "completed": 0
+      }
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "System/OngoingQuestInfoList.lub",
+        "container": null
+      },
+      "destination": "src/System/OngoingQuestInfoList.lub",
+      "description": "Quest titles, descriptions and objectives",
+      "client_support": "supported",
+      "status": "not_started",
+      "progress": {
+        "total": null,
+        "completed": 0
+      },
+      "notes": "Review the base and _True source variants together when selecting the source table."
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "System/achievement_list.lub",
+        "container": null
+      },
+      "destination": "src/System/achievement_list.lub",
+      "description": "Achievement names and descriptions",
+      "client_support": "conditional",
+      "status": "in_progress",
+      "progress": {
+        "total": 361,
+        "completed": 335
+      },
+      "notes": "Counts achievement records whose display text is fully translated. Titles, summaries, details and objective labels are covered; 45 conflicting display fields across 26 IDs retain Korean pending review.csv. Scores, targets, rewards, shortcuts, category keys and display settings retain kRO values. Requires achievements to be enabled."
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "System/Towninfo.lub",
+        "container": null
+      },
+      "destination": "src/System/Towninfo.lub",
+      "description": "Town and service labels",
+      "client_support": "supported",
+      "status": "complete",
+      "progress": {
+        "total": 307,
+        "completed": 307
+      },
+      "notes": "56 maps with 20 distinct translated labels. The town-info loader fix is merged in roBrowserLegacy; older client builds need that fix to register every entry. Both destination paths contain the same complete kRO table.",
+      "additional_destinations": [
+        "src/SystemEN/Towninfo.lub"
+      ]
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "data/questid2display.txt",
+        "container": "data.grf"
+      },
+      "destination": "src/data/questid2display.txt",
+      "description": "Legacy quest text",
+      "client_support": "supported",
+      "status": "not_started",
+      "progress": {
+        "total": null,
+        "completed": 0
+      },
+      "notes": "Used by the client when Lua tables are disabled."
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "data/cardprefixnametable.txt",
+        "container": "data.grf"
+      },
+      "destination": "src/data/cardprefixnametable.txt",
+      "description": "Card prefixes and suffixes",
+      "client_support": "supported",
+      "status": "complete",
+      "progress": {
+        "total": 1349,
+        "completed": 1349
+      },
+      "notes": "1,339 card IDs and 1,275 distinct labels across 1,349 records; ten repeated records are preserved. Prefix or suffix placement comes from the unchanged kRO cardpostfixnametable.txt. Unconfirmed Latin spellings are recorded by ID in sources.json."
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "data/ba_frostjoke.txt",
+        "container": "data.grf"
+      },
+      "destination": "src/data/ba_frostjoke.txt",
+      "description": "Frost Joke lines",
+      "client_support": "supported",
+      "status": "complete",
+      "progress": {
+        "total": 119,
+        "completed": 119
+      },
+      "notes": "Progress counts nonempty text records, including the heading."
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "data/dc_scream.txt",
+        "container": "data.grf"
+      },
+      "destination": "src/data/dc_scream.txt",
+      "description": "Scream lines",
+      "client_support": "supported",
+      "status": "complete",
+      "progress": {
+        "total": 117,
+        "completed": 117
+      },
+      "notes": "Progress counts nonempty text records, including the heading."
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "data/pettalktable.xml",
+        "container": "data.grf"
+      },
+      "destination": "src/data/pettalktable.xml",
+      "description": "Pet dialogue",
+      "client_support": "supported",
+      "status": "complete",
+      "progress": {
+        "total": 11517,
+        "completed": 11517
+      },
+      "notes": "135 pet blocks. Counts nonempty dialogue occurrences, including repeats; two blank records are unchanged. Little Poring's tutorial wording preserves the approved kRO descriptions; accepted implementation differences remain in the rAthena discrepancy tracker. XML tag spelling and case are preserved; the current client only resolves matching lowercase pet keys with four-digit monster IDs below 4000."
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "data/luafiles514/lua files/datainfo/addrandomoptionnametable.lub",
+        "container": "data.grf"
+      },
+      "destination": "src/data/luafiles514/lua files/datainfo/addrandomoptionnametable.lub",
+      "description": "Random-option descriptions",
+      "client_support": "supported",
+      "status": "complete",
+      "progress": {
+        "total": 253,
+        "completed": 253
+      },
+      "notes": "Progress excludes the unchanged END sentinel. Options 117-126 use the approved iRO division expression for rAthena scaling; the client displays the expression literally. Options 204-205 and 255-256 use approved kRO wording; missing rAthena definitions remain recorded separately."
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "data/luafiles514/lua files/skillinfoz/skilldescript.lub",
+        "container": "data.grf"
+      },
+      "destination": "src/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
+      "description": "Skill descriptions",
+      "client_support": "supported",
+      "status": "not_started",
+      "progress": {
+        "total": null,
+        "completed": 0
+      }
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
+        "container": "data.grf"
+      },
+      "destination": "src/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
+      "description": "Skill names",
+      "client_support": "supported",
+      "status": "not_started",
+      "progress": {
+        "total": null,
+        "completed": 0
+      }
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "data/luafiles514/lua files/stateicon/stateiconinfo.lub",
+        "container": "data.grf"
+      },
+      "destination": "src/data/luafiles514/lua files/stateicon/stateiconinfo.lub",
+      "description": "Status-effect descriptions",
+      "client_support": "supported",
+      "status": "not_started",
+      "progress": {
+        "total": null,
+        "completed": 0
+      }
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "data/luafiles514/lua files/SignBoardList.lub",
+        "container": "data.grf"
+      },
+      "destination": "src/data/luafiles514/lua files/SignBoardList.lub",
+      "description": "Map signboard text",
+      "client_support": "supported",
+      "status": "complete",
+      "progress": {
+        "total": 139,
+        "completed": 139
+      },
+      "notes": "925 signboard records across 133 maps; all 139 text descriptions are translated, covering 71 distinct labels. Image-only records and resource paths are preserved; text drawn inside images is a separate target."
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "data/simplemsg/msg_emotion.csv",
+        "container": "data.grf"
+      },
+      "destination": "src/data/simplemsg/msg_emotion.csv",
+      "description": "Emotion interface labels, names and purchase messages",
+      "client_support": "unsupported",
+      "status": "deferred",
+      "progress": {
+        "total": 61,
+        "completed": 0
+      },
+      "notes": "Loaded for packet versions 20230302 and later, including 20250402, but no current UI code calls getMessageEmotionCSV. Translating this table alone has no visible effect. The source has 61 records, including 10 existing ASCII command names."
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "data/texture/유저인터페이스/basic_interface/equipwin_bg.bmp",
+        "container": "data.grf"
+      },
+      "destination": null,
+      "description": "Equipment slot labels printed in background artwork",
+      "client_support": "supported",
+      "status": "not_started",
+      "progress": {
+        "total": null,
+        "completed": 0
+      },
+      "notes": "Labels are printed in the BMP rather than loaded from message strings. The source spells Accessory as accessary; this artwork is not yet replaced by the mod."
+    }
+  ]
+}

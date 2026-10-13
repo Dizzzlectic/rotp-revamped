@@ -1,0 +1,803 @@
+{
+  "captured_at": "2026-10-13T00:07:27.282618+00:00",
+  "timestamp_meaning": "Filesystem last-modified times in UTC; these are not official patch release times.",
+  "patch_id_meaning": "Unsigned 32-bit little-endian value in Patch.inf; identifies patch progress, not episode or protocol version.",
+  "clients": {
+    "kRO": {
+      "path": "kRO",
+      "patch": {
+        "path": "kRO/Patch.inf",
+        "modified_at": "2026-10-09T16:55:53.500081Z",
+        "size_bytes": 4,
+        "sha256": "2c53758fadf265dfcead4c6083ca68b5b3e7819e93e674c84c409faf4b7febb4",
+        "id": 7449,
+        "raw_hex": "191d0000",
+        "list_entry": null
+      },
+      "files": {
+        "data.grf": {
+          "path": "kRO/data.grf",
+          "modified_at": "2026-10-09T16:32:10.788105Z",
+          "size_bytes": 4959739436,
+          "sha256": "4c28ccdf8945beeaff02a235ab226b179a0bee2b2f61691976137dad48826a0c"
+        },
+        "System/mapInfo_true.lub": {
+          "path": "kRO/System/mapInfo_true.lub",
+          "modified_at": "2026-10-09T16:32:00.598708Z",
+          "size_bytes": 167692,
+          "sha256": "e894da1fc82dee8340657bb2fe55e8f279b1ce43966585092a5870fb1a2da697"
+        },
+        "data/mapnametable.txt": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 32729,
+          "sha256": "27619954daa76785dba2a18b6bf08308532f9b316b1e670fabaf85938badd2d0"
+        },
+        "data/luafiles514/lua files/datainfo/titletable.lub": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 1937,
+          "sha256": "8d5dd053eb09191ff9d3a673d5f4540692a30aef9ebbce6a6a29e14060177d71"
+        },
+        "System/achievement_list.lub": {
+          "path": "kRO/System/achievement_list.lub",
+          "modified_at": "2026-10-09T16:28:05.037592+00:00",
+          "size_bytes": 142221,
+          "sha256": "b755683a0eb9eddc524acec5cfa60ad4d56ee854affd6a8907c3499e96717ba1"
+        },
+        "data/msgstringtable.csv": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 400769,
+          "sha256": "86d6096043b91b96de504324db0d9e49eba9369df35d47d2b4a31044fcd2716d"
+        },
+        "Ragexe.exe": {
+          "path": "kRO/Ragexe.exe",
+          "modified_at": "2026-10-09T16:32:01.930396Z",
+          "size_bytes": 20060160,
+          "sha256": "0c8586bf763053290163b9ce5e34bf08f43118032f8edb68a6139f4e307abe6c"
+        },
+        "data/simplemsg/msg_emotion.csv": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 5512,
+          "sha256": "779ae922762434bc01ba6c8cebf00a96e2f0c8a6da5194090f3ed9359dc1b286"
+        },
+        "data/ba_frostjoke.txt": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 5991,
+          "sha256": "844e1f70b891548e2f6a9677cb478863e53d73212ab8025bd590dadcba5c0900"
+        },
+        "data/dc_scream.txt": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 3181,
+          "sha256": "07d0b871f01bf696bbc71a094429f3d14d97192dd3c7fe0ae0c67cc0c7f48b77"
+        },
+        "System/Towninfo.lub": {
+          "path": "kRO/System/Towninfo.lub",
+          "modified_at": "2026-10-09T16:31:52.013562Z",
+          "size_bytes": 20787,
+          "sha256": "38042d08a08c321a1721e61753e39a5736bc61c27f74b5f97f5a8de65d563d27"
+        },
+        "data/luafiles514/lua files/SignBoardList.lub": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 71303,
+          "sha256": "784b1ddf3d2cf491e038dfda75010d40b01b812a0a32ff487b4807bfdecafade"
+        },
+        "data/cardprefixnametable.txt": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 27128,
+          "sha256": "2d9469cb7dcb22fb3c81bb8d956a1e94cc521237984f3c14d29204fdab3357d9"
+        },
+        "data/cardpostfixnametable.txt": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 4359,
+          "sha256": "538dd70d99ef4ac115940498fc7f93b355598155fa60f0afe1dfe334610bc8dd"
+        },
+        "data/luafiles514/lua files/datainfo/npcidentity.lub": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 304055,
+          "sha256": "9c06159d8981d04628691512d58c0d217572f22831069efb23c055674ce5eefa"
+        },
+        "System/itemInfo_true.lub": {
+          "path": "kRO/System/itemInfo_true.lub",
+          "modified_at": "2026-10-09T16:32:08.144496Z",
+          "size_bytes": 9731100,
+          "sha256": "30a44a61a8704e0e56034b4646ea8b1215810f723e0316bff80a45ad6b162913"
+        },
+        "data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/basic_interface/equipwin_bg.bmp": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 37124,
+          "sha256": "6497a643258950bb40d0462d38b2d6183d3db0fbf4cd1f817f80591525f353bb"
+        },
+        "System/Font/SCDream4.otf": {
+          "path": "kRO/System/Font/SCDream4.otf",
+          "modified_at": "2024-01-05T01:44:38Z",
+          "size_bytes": 729724,
+          "sha256": "1dc288e8cfdf96eb083c0b016fb5f107bc83208e748b6a61422404b9e42a95a4"
+        },
+        "System/Font/SCDream6.otf": {
+          "path": "kRO/System/Font/SCDream6.otf",
+          "modified_at": "2024-01-05T01:44:38Z",
+          "size_bytes": 743480,
+          "sha256": "7dd3e0240002feedd37d0f33033a44e17b1ab11f84a93acf8482184adc33aa1a"
+        },
+        "data/luafiles514/lua files/datainfo/addrandomoptionnametable.lub": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 27459,
+          "sha256": "888f20e7c25e480ce235804592c128908d1acb467a19ca70ce03155f2e84b47a"
+        },
+        "data/luafiles514/lua files/datainfo/enumvar.lub": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 21238,
+          "sha256": "e6a1acb8fa355ee899b06e8a92bcdc2067aab3954c8b143e3af3eaa2ac21353e"
+        },
+        "data/pettalktable.xml": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 709632,
+          "sha256": "18d1337d2b39c80ba2c02acf524f5bf48bb5a5a370e59e49beec0c6ea42982cc"
+        }
+      }
+    },
+    "iRO": {
+      "path": "iRO",
+      "patch": {
+        "path": "iRO/patch.inf",
+        "modified_at": "2026-10-08T16:57:27.017437Z",
+        "size_bytes": 4,
+        "sha256": "b10d2e741d9980e8028c6adc6765f64dfaeae2a0ae183c3c8245a6da451bf00a",
+        "id": 5670,
+        "raw_hex": "26160000",
+        "list_entry": {
+          "path": "iRO/patch3.txt",
+          "text": "5670 2026-10-06_Raghash_1791467274.rgz"
+        }
+      },
+      "files": {
+        "data.grf": {
+          "path": "iRO/data.grf",
+          "modified_at": "2026-10-08T16:57:26.986037Z",
+          "size_bytes": 4830599238,
+          "sha256": "385a81bcb67b9212028f30374400dc483b55474ec445926385eeb50c7d717929"
+        },
+        "System/mapInfo.lub": {
+          "path": "iRO/System/mapInfo.lub",
+          "modified_at": "2026-10-08T16:56:49.574339Z",
+          "size_bytes": 149627,
+          "sha256": "4624c82d60f0eb9e7e5e056c9bc61c7c7af870fe8c9bde4426aabe2a7ddb653b"
+        },
+        "data/luafiles514/lua files/datainfo/titletable.lub": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 3028,
+          "sha256": "1cafeae4496f1e74f3e7cfd0aa47b5184686928d352618dc3bb7201285fe2aa8"
+        },
+        "data/msgstringtable.txt": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 130391,
+          "sha256": "b5c214a6b22442fa90aac5295fd6e9bd773dcc0417c6bd19cf7341d034e977c7"
+        },
+        "System/Towninfo.lub": {
+          "path": "iRO/System/Towninfo.lub",
+          "modified_at": "2025-09-19T14:29:26Z",
+          "size_bytes": 15532,
+          "sha256": "380e69e726e0f9b19128647688c59eb393cdcb9a7534a79150940aa229065a16"
+        },
+        "data/luafiles514/lua files/SignBoardList.lub": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 40596,
+          "sha256": "2e1327462077cf44ada0cee3d51af5a6251a92b651df2ecb194d4a900c90d1c2"
+        },
+        "data/cardprefixnametable.txt": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 23633,
+          "sha256": "94ab2c5202c0dbb2cc1d7ac3999724a466ec95ded3f0a83793e5786b3fa54287"
+        },
+        "data/cardpostfixnametable.txt": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 4419,
+          "sha256": "a3228c30869c802e93b8db0ec09d40eb518e94bc27eb5b34679347e1ad2ce03c"
+        },
+        "data/luafiles514/lua files/datainfo/addrandomoptionnametable.lub": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 27606,
+          "sha256": "a176ffee8d9e7d9158ba8c16779c6b10af8c657028c093dbee1a13069651839f"
+        },
+        "data/luafiles514/lua files/datainfo/enumvar.lub": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 21080,
+          "sha256": "3b90f7319b5519518aaadca79353969c5b6fab9e6174eb5bff203e54ab5e0819"
+        },
+        "data/ba_frostjoke.txt": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 3850,
+          "sha256": "719541c10eafd3e65db1914277c033698ae5974adc804cdd17aa22f0ea446691"
+        },
+        "data/dc_scream.txt": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 3672,
+          "sha256": "47615821dbb75a727d396374539938971ee73205165f6b856c0c1f6eb2e6a001"
+        },
+        "data/pettalktable.xml": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 411255,
+          "sha256": "e89cb26c4e7e5788dda481cb85a9739188b2ef498aefd5746ab1d2f48522e658"
+        },
+        "System/achievement_list.lub": {
+          "path": "iRO/System/achievement_list.lub",
+          "modified_at": "2026-10-08T16:56:49.568799+00:00",
+          "size_bytes": 140533,
+          "sha256": "0f35eb4e738ad18afe457f3167a3cf097c4ae3340d179338c824e036d351fdcc"
+        }
+      }
+    }
+  },
+  "translated_files": {
+    "src/data/mapnametable.txt": {
+      "source_client": "kRO",
+      "source_file": "data/mapnametable.txt",
+      "modified_at": "2026-10-11T04:15:19.598674Z",
+      "sha256": "f68cf84997f92fe0a4f555814b9ffeb8fe2d50fd5c4d9dd11e6594e6c8aaab71"
+    },
+    "src/System/mapInfo.lub": {
+      "source_client": "kRO",
+      "source_file": "System/mapInfo_true.lub",
+      "modified_at": "2026-10-11T04:15:19.599065Z",
+      "sha256": "ca93a1ee6d2e866ce9ad2341f41a9664345a9c755c5bb1ea0ed1646e97763c94"
+    },
+    "src/data/luafiles514/lua files/datainfo/titletable.lub": {
+      "source_client": "kRO",
+      "source_file": "data/luafiles514/lua files/datainfo/titletable.lub",
+      "modified_at": "2026-10-11T04:30:48.528856Z",
+      "sha256": "53a2024ac5974d7c98a6dae4698045685047be4d347eb6ce2cf8974e3ff537d8"
+    },
+    "src/data/msgstringtable.csv": {
+      "source_client": "kRO",
+      "source_file": "data/msgstringtable.csv",
+      "modified_at": "2026-10-12T17:24:26.644638+00:00",
+      "sha256": "411ab978f9e3600db8813c2219932f429c04f3219f8e3aa44fb7db0082c2569d",
+      "formatting_repairs": [
+        {
+          "id": "MSI_BILLING_DAY_HOUR_MINUTES",
+          "row": 677,
+          "placeholders": [
+            "%d",
+            "%d",
+            "%d"
+          ],
+          "reference": "ROenglishRE/Tools/msgstringtable/msgstringtable.txt"
+        },
+        {
+          "id": "MSI_BILLING_2",
+          "row": 1125,
+          "placeholders": [
+            "%d",
+            "%d",
+            "%d"
+          ],
+          "reference": "ROenglishRE/Tools/msgstringtable/msgstringtable.txt"
+        }
+      ]
+    },
+    "src/System/Towninfo.lub": {
+      "source_client": "kRO",
+      "source_file": "System/Towninfo.lub",
+      "modified_at": "2026-10-11T21:46:18.536347Z",
+      "sha256": "aae75743b537e7178de23c1f29a3ec3c4142b88dd20e41638fa04df3882bef1f"
+    },
+    "src/SystemEN/Towninfo.lub": {
+      "source_client": "kRO",
+      "source_file": "System/Towninfo.lub",
+      "modified_at": "2026-10-11T21:46:18.536917Z",
+      "sha256": "aae75743b537e7178de23c1f29a3ec3c4142b88dd20e41638fa04df3882bef1f"
+    },
+    "src/data/luafiles514/lua files/SignBoardList.lub": {
+      "source_client": "kRO",
+      "source_file": "data/luafiles514/lua files/SignBoardList.lub",
+      "modified_at": "2026-10-11T22:06:13.246739Z",
+      "sha256": "5291a23bc614f006a8c51f848b168c3557ade2887a834260ce9b64100d723f85"
+    },
+    "src/data/cardprefixnametable.txt": {
+      "source_client": "kRO",
+      "source_file": "data/cardprefixnametable.txt",
+      "modified_at": "2026-10-11T22:32:44.992959Z",
+      "sha256": "660c39a21e0ea11b4c792870dc7d6786425840d005d1b0378e7bed6e84dd982c",
+      "wording_reviews": [
+        {
+          "id": 27181,
+          "source": "\ubc18\ubc14\uc778",
+          "translation": "Banvain",
+          "status": "spelling_unconfirmed",
+          "reason": "Phonetic spelling retained. Both English references use Bane Band, which does not closely match the Korean label. The intended Latin spelling is unconfirmed.",
+          "references": {
+            "iRO": "Bane Band",
+            "ROenglishRE": "Bane Band"
+          }
+        },
+        {
+          "id": 27287,
+          "source": "\uc624\ube0c \ub8e8\ub2c8\uba3c\ud2b8",
+          "translation": "of Luniment",
+          "status": "spelling_unconfirmed",
+          "reason": "Phonetic spelling retained. The English references disagree; the Korean label does not establish which spelling was intended.",
+          "references": {
+            "iRO": "of Luminant",
+            "ROenglishRE": "of Liniment"
+          }
+        },
+        {
+          "id": 300935,
+          "source": "\ub77c\uc988\ub9ac\uadf8\uc2a4",
+          "translation": "Lazrigs",
+          "status": "spelling_unconfirmed",
+          "reason": "Proper name romanized from Korean. No matching label was found in either English reference table, and no corresponding Latin NPCIdentity key was established.",
+          "references": {
+            "iRO": null,
+            "ROenglishRE": null
+          }
+        }
+      ]
+    },
+    "src/data/luafiles514/lua files/datainfo/addrandomoptionnametable.lub": {
+      "source_client": "kRO",
+      "source_file": "data/luafiles514/lua files/datainfo/addrandomoptionnametable.lub",
+      "modified_at": "2026-10-12T22:40:25.105317+00:00",
+      "sha256": "ea570d19467999644893f1db454f8b5272625ad4b031e5784584e928d98928dd",
+      "deferred_ids": [],
+      "approved_wording_without_server_definition_ids": [
+        204,
+        205,
+        255,
+        256
+      ],
+      "numeric_display": {
+        "option_ids": [
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126
+        ],
+        "divisor": 10,
+        "arithmetic": "rAthena integer division",
+        "client_display": "Literal division expression; arithmetic is not evaluated",
+        "reference_client": "iRO"
+      },
+      "approved_wording_pending_server_fix_ids": [
+        149,
+        150,
+        160,
+        161,
+        162
+      ]
+    },
+    "src/data/ba_frostjoke.txt": {
+      "source_client": "kRO",
+      "source_file": "data/ba_frostjoke.txt",
+      "source_decoding": "docs/SKILL_SHOUTS.md#source-text-decoding",
+      "modified_at": "2026-10-12T23:03:04.598178+00:00",
+      "sha256": "c7f45281dcbe7f24f4faf579d030cd2ecdf9710b4cb5b5b4a0ce7d4131250454"
+    },
+    "src/data/dc_scream.txt": {
+      "source_client": "kRO",
+      "source_file": "data/dc_scream.txt",
+      "source_decoding": "docs/SKILL_SHOUTS.md#source-text-decoding",
+      "modified_at": "2026-10-12T23:03:04.598762+00:00",
+      "sha256": "e6457c51eb3aab1cb4ee7e143ee064e431fd07be3a72edcd176481db12baa035"
+    },
+    "src/data/pettalktable.xml": {
+      "source_client": "kRO",
+      "source_file": "data/pettalktable.xml",
+      "source_decoding": "docs/PET_DIALOGUE.md#source-text-decoding",
+      "modified_at": "2026-10-13T11:43:44.650063+00:00",
+      "sha256": "d68ca99422537220461fb69e7d0eba49ebc4f6fe151ec15f0b4e0b61dcc3337e",
+      "deferred_records": [],
+      "wording_reviews": [
+        {
+          "pet": "gobline_xmas, goblin_1, goblin_2, goblin_4",
+          "source": "\ub124\ub188\uc758 \uacb0\uc815\uc740 \ubb34\uc2a8\uc0c9\uc774\ub0d0?",
+          "translation": "What color are your crystals?",
+          "status": "reading_unconfirmed",
+          "reason": "\uacb0\uc815 can mean crystal or decision. The color question and nearby hard-crystal line favor crystal. No corroborating allusion was found."
+        },
+        {
+          "pet": "WICKED_NYMPH",
+          "source": "\uc6b4\uc545\uc11d \ud560\uc544\ubc84\uc9c0",
+          "translation": "Old man Unakseok",
+          "status": "spelling_unconfirmed",
+          "reason": "Retains the source name rather than assuming a typo for Cloud Hermit (\uc6b4\uc545\uc120)."
+        },
+        {
+          "pet": "pecopeco, grand_peco",
+          "source": "\uc9c4\uc774 / \uc2e0\uc774",
+          "translation": "Jin / Shini",
+          "status": "spelling_unconfirmed",
+          "reason": "Different Korean names in otherwise similar dialogue are retained. iRO does not establish a matching proper-name spelling."
+        },
+        {
+          "pet": "CLB_SS_TZ",
+          "source": "\uc18c\ud654",
+          "translation": "Sohwa",
+          "status": "spelling_unconfirmed",
+          "reason": "Phonetic spelling for the named neighbor; no corroborating Latin spelling found."
+        }
+      ],
+      "approved_source_wording": {
+        "pet": "LITTLE_PORING",
+        "records": [
+          "LITTLE_PORING/hungry/perfor_1[1]",
+          "LITTLE_PORING/bit_hungry/perfor_1[1]",
+          "LITTLE_PORING/noting/perfor_1[1]",
+          "LITTLE_PORING/full/perfor_1[1]",
+          "LITTLE_PORING/so_full/perfor_1[1]",
+          "LITTLE_PORING/noting/feeding[1]",
+          "LITTLE_PORING/full/stand[3]",
+          "LITTLE_PORING/so_full/stand[6]"
+        ],
+        "implementation_differences": "../../docs/RATHENA_DISCREPANCIES.md#little-poring-tutorial"
+      }
+    },
+    "src/System/achievement_list.lub": {
+      "source_client": "kRO",
+      "source_file": "System/achievement_list.lub",
+      "modified_at": "2026-10-13T13:13:48.221009+00:00",
+      "sha256": "a420f583675c82c26499ef559d26d160bfaffefaa6da7906f237a4ca70e7997b",
+      "deferred_records": [
+        "achievement_tbl[200006].title",
+        "achievement_tbl[200006].content.summary",
+        "achievement_tbl[200006].content.details",
+        "achievement_tbl[200006].resource.1.text",
+        "achievement_tbl[200015].content.details",
+        "achievement_tbl[200016].content.details",
+        "achievement_tbl[120131].title",
+        "achievement_tbl[120131].content.details",
+        "achievement_tbl[120131].resource.1.text",
+        "achievement_tbl[120141].title",
+        "achievement_tbl[120141].content.details",
+        "achievement_tbl[120141].resource.1.text",
+        "achievement_tbl[128026].title",
+        "achievement_tbl[128026].content.summary",
+        "achievement_tbl[128026].resource.1.text",
+        "achievement_tbl[128028].title",
+        "achievement_tbl[128028].content.summary",
+        "achievement_tbl[128028].resource.1.text",
+        "achievement_tbl[128040].resource.1.text",
+        "achievement_tbl[220010].content.summary",
+        "achievement_tbl[220010].content.details",
+        "achievement_tbl[220010].resource.1.text",
+        "achievement_tbl[220011].content.summary",
+        "achievement_tbl[220011].content.details",
+        "achievement_tbl[220011].resource.1.text",
+        "achievement_tbl[220012].content.summary",
+        "achievement_tbl[220012].content.details",
+        "achievement_tbl[220012].resource.1.text",
+        "achievement_tbl[220013].content.summary",
+        "achievement_tbl[220013].content.details",
+        "achievement_tbl[220013].resource.1.text",
+        "achievement_tbl[220006].resource.1.text",
+        "achievement_tbl[128017].resource.1.text",
+        "achievement_tbl[128018].resource.1.text",
+        "achievement_tbl[128019].resource.1.text",
+        "achievement_tbl[128020].resource.1.text",
+        "achievement_tbl[128021].resource.1.text",
+        "achievement_tbl[128032].resource.1.text",
+        "achievement_tbl[128033].resource.1.text",
+        "achievement_tbl[128034].resource.1.text",
+        "achievement_tbl[128039].resource.1.text",
+        "achievement_tbl[128043].resource.1.text",
+        "achievement_tbl[129021].resource.1.text",
+        "achievement_tbl[110001].content.details",
+        "achievement_tbl[130000].content.details"
+      ],
+      "preserved_metadata_issues": [
+        {
+          "id": 200024,
+          "path": "reward.buff",
+          "value": 611,
+          "server_icon": 305
+        },
+        {
+          "id": 129019,
+          "path": "resource.2.shortcut",
+          "value": 120918,
+          "intended_target": 129018
+        }
+      ]
+    }
+  },
+  "mod_version": "0.0.17",
+  "implementation_sources": {
+    "rAthena": {
+      "commit": "8cd3493bb0fe2d716be8fb98eacb5d7a0b83a426",
+      "files": {
+        "db/re/achievement_db.yml": {
+          "sha256": "b91ee560ffbd716ba784f818413806e8e0fad8e0d2223a34f2267fc3fc082305",
+          "commit": "96f9b014d49eb5ded3a9c15e9b0187e3fd628f28"
+        },
+        "src/map/clif.hpp": {
+          "sha256": "3a9c9531ba63ded135885d69c378ebc818cfbdcf8d4e4ccbcd9bb75d8a42019c"
+        },
+        "src/map/status.cpp": {
+          "sha256": "1541e6957f458e2a97b3d749a9c8a527c096c181f44c6bc7ca2a02d5562955d5"
+        },
+        "db/re/item_db_etc.yml": {
+          "sha256": "385e14a6ce2a943ee847cc6ae876390cc4aeac484e77491eaf83962f44cac137"
+        },
+        "db/re/item_randomopt_db.yml": {
+          "sha256": "56132bd87fa6f347b955432f45d302a8addbffc11f2e40c777d0efb1d8d6c2a3"
+        },
+        "src/map/pc.cpp": {
+          "sha256": "8b8917b4dd1c6e4052b4dbb56db576c685792582572c5fe6988ae5b89c528541",
+          "commit": "96f9b014d49eb5ded3a9c15e9b0187e3fd628f28"
+        },
+        "src/map/battle.cpp": {
+          "sha256": "b221f23aa48d4629e810fbf92f820ff501f06ce2324e0c9dd336bdfc6bdb722c"
+        },
+        "src/map/map.hpp": {
+          "sha256": "b459debb3c414bbb56b7b4c1e58b20459684c873be36ce02c79d6f52d3a2d3e6"
+        },
+        "conf/battle/items.conf": {
+          "sha256": "5902df0df2be036d568fcb71d87182e8ce28767fa8b67a52c9fbc35ce2be7004"
+        },
+        "doc/item_bonus.txt": {
+          "sha256": "79888e83bf6d28c99ce9e30fdef28b404aeaa29b53cdcd6adca57c374aad90d1"
+        },
+        "db/re/skill_db.yml": {
+          "sha256": "e7d6748fc042f2c569083865774f91934ce2fcf8ec3bf201ff18e942e5bc0fdb"
+        },
+        "db/re/mob_db.yml": {
+          "sha256": "323b5759fcb4b58b00c9f37837bd8c6d187eaba7784f2f83802fc4a36bc517f6",
+          "commit": "96f9b014d49eb5ded3a9c15e9b0187e3fd628f28"
+        },
+        "npc/merchants/refine.txt": {
+          "sha256": "cdea34a386c2dc4c500a5b9f1d63ae95952ff7b3e045d090bcb2a21d0a5b84ae"
+        },
+        "src/map/pet.cpp": {
+          "sha256": "43ee63394f4e5301e032ad006fb4c3dd87f717e0efb935ab33d4fa9758b85065"
+        },
+        "src/map/pet.hpp": {
+          "sha256": "b7fe4e89627acaaade502d43b13d9b7b72b0df82d66fd65a7ef17b7886c0eeac"
+        },
+        "db/re/pet_db.yml": {
+          "sha256": "2e4950ea21b466540fd061f960f6b1cf3e640442f90caea21b30c26d5457b645",
+          "commit": "96f9b014d49eb5ded3a9c15e9b0187e3fd628f28"
+        },
+        "conf/battle/pet.conf": {
+          "sha256": "1c7bc26aa2ae0a357d1849c200a7b4ccc839ef821eb627d5f2247cfa3827feee"
+        },
+        "npc/cities/aldebaran.txt": {
+          "sha256": "195f6cb28e4c46c6e2cb071284fba5bc9cd0f1c0684844a769f19ee87ef3cc0c"
+        },
+        "src/map/achievement.cpp": {
+          "sha256": "da4a1f6b0f1acf631c30c6b48020743d8b7c9afd88f898d94202f993dea2a48b",
+          "commit": "96f9b014d49eb5ded3a9c15e9b0187e3fd628f28"
+        },
+        "npc/re/other/achievements.txt": {
+          "sha256": "2667e92f6b37a7f586bb5915d0364b42b14e3eed182f44ae6cfda01543d92390",
+          "commit": "96f9b014d49eb5ded3a9c15e9b0187e3fd628f28"
+        },
+        "npc/re/quests/quests_16_1.txt": {
+          "sha256": "4b6b5a930b682b4741a5bb24ce1fc20fb42a4635687f2dfc3777affa9fbdb130",
+          "commit": "96f9b014d49eb5ded3a9c15e9b0187e3fd628f28"
+        },
+        "src/map/vending.cpp": {
+          "sha256": "605f67a293ee137ff97bbaf04a168c0287a9c615fb20644433e644921d180193",
+          "commit": "96f9b014d49eb5ded3a9c15e9b0187e3fd628f28"
+        },
+        "src/map/script.cpp": {
+          "sha256": "8be7010ea009a8081be02e1fb265ff2dc11d203ca0162321fa733e207d8ec63f",
+          "commit": "96f9b014d49eb5ded3a9c15e9b0187e3fd628f28"
+        },
+        "src/common/mmo.hpp": {
+          "sha256": "883ec2048b726d51f897218989ca66c476bcdbc969d683025fe09a0bf280fa6d",
+          "commit": "96f9b014d49eb5ded3a9c15e9b0187e3fd628f28"
+        },
+        "src/map/status.hpp": {
+          "sha256": "533eefce94bf9281055cb2e32e584010fe5e14c78b2f55507452322e5c221a16",
+          "commit": "96f9b014d49eb5ded3a9c15e9b0187e3fd628f28"
+        }
+      }
+    },
+    "roBrowserLegacy": {
+      "commit": "f6f4799cb356a75f94e4f35b85206cd1eb9c1be9",
+      "files": {
+        "src/Controls/ProcessCommand.js": {
+          "sha256": "edcaf87023625d1603020f260bd292a9beecde57afd425cdc5db96fb7d1b4ed6"
+        },
+        "src/DB/Emotions.js": {
+          "sha256": "64014a4551038882c8767291d0fe2d7321d71b3102ed6508e7c7cb64ad77f4c4"
+        },
+        "src/DB/DBManager.js": {
+          "sha256": "b28c99179638fd19268455c13c54a42736fab074227b81cdc1211cf2b84c3943",
+          "commit": "f6f4799cb356a75f94e4f35b85206cd1eb9c1be9"
+        },
+        "src/UI/Components/Emoticons/Emoticons.js": {
+          "sha256": "fd858afbfb09c0de8e72fe3ee6ab487efeb0f988b673e45d89e1f9b15be2a567"
+        },
+        "src/DB/Map/SignboardMerge.js": {
+          "sha256": "37d0acad299ebe0eacad2d07fb08fdf9b5fbdff81ed40fc212a17e9055417d8f"
+        },
+        "src/UI/Components/Equipment/EquipmentV4/EquipmentV4.css": {
+          "sha256": "66c584a40f8a0a77f57b3b89745f61e356f0be567b0875d736c5641367287472"
+        },
+        "src/UI/Components/Equipment/EquipmentV4/EquipmentV4.html": {
+          "sha256": "dbd8df01fafa54139c24480b14af7b67b4558893fb9dbde425d1257d662365a3"
+        },
+        "src/UI/Components/Equipment/EquipmentCommon.js": {
+          "sha256": "797c4518c95faa76669accc84204f61bd02eac647c4d5c996e87e391b75e7e7b"
+        },
+        "src/UI/Components/Equipment/EquipmentV4/EquipmentV4.js": {
+          "sha256": "e3365e238f2e45d36c30b2ce8c66a8a888b2a295949cc644410f7f2da7cc170e"
+        },
+        "src/UI/Components/BasicInfo/BasicInfoV4/BasicInfoV4.css": {
+          "sha256": "601e838616ea407085fa0ba769f554c011b48654b38e1a045411dc09f542f405"
+        },
+        "src/UI/Common.css": {
+          "sha256": "5e2f6a76d8901eaad46bc90fca7f8227e7c3c8ab7fb4f638fa3665831280ce4b"
+        },
+        "src/UI/Components/Inventory/InventoryV3/InventoryV3.css": {
+          "sha256": "e5d2f49fedc5fa9a08f5a62fdcd30e31477aa5254ef5ae3562e49e33394c1a06"
+        },
+        "src/UI/Components/WinStats/WinStatsV2/WinStatsV2.css": {
+          "sha256": "9b8f634b3935b93cd7f86831576044057947042d99b66b3bf0db933e319e8c1c"
+        },
+        "src/UI/Components/WinStats/WinStatsCommon.js": {
+          "sha256": "07f645952acf08e87f5361e0baa7533c6795c7e16c90f53ae0b5cb263f91db0f"
+        },
+        "src/UI/Components/WinStats/WinStatsV2/WinStatsV2.html": {
+          "sha256": "eb0b13533cd7ccc330bac4f42f3aa689af0bd8716ad9a6797795aaeb1475f09a"
+        },
+        "src/UI/Components/Inventory/InventoryV3/InventoryV3.html": {
+          "sha256": "15ceb0a6c6ea7e124b69b4fbce10fb842767b9931eaca7deb4792bd2c21cd887"
+        },
+        "src/UI/Components/BasicInfo/BasicInfoCommon.js": {
+          "sha256": "83277a94c1cc886c073b6efe060ea317b6a6c44c50f73f8d9326af3c4a0b1f91"
+        },
+        "src/UI/Components/BasicInfo/BasicInfoV5/BasicInfoV5.css": {
+          "sha256": "7ca65c84f5b3af521d355bc6ed1f77b85e96704ebb6aa3c1509bd1068093a98f"
+        },
+        "src/UI/Components/Inventory/InventoryCommon.js": {
+          "sha256": "1203eb67ccc9f92169ad67ff607e35a4b77b0ef43f1917a1db4e7cee4d4705ea"
+        },
+        "src/UI/Components/Inventory/InventoryV3/InventoryV3.js": {
+          "sha256": "cf9498d112db6dfbea0343472c2ce0beb6ae7594244eacc87dbc65be6a604f83"
+        },
+        "src/UI/Components/ItemInfo/ItemInfo.js": {
+          "sha256": "6d8866fb554a6978fdffdf9dad36c50722103a4418590b39736ebf8f5bd64d19"
+        },
+        "src/UI/Components/ItemCompare/ItemCompare.js": {
+          "sha256": "6e76c7299b5c397e56b89aaf6b79160b2bdc3cac3265f8ed8da178e6f9763f63"
+        },
+        "src/DB/Effects/EffectTable.js": {
+          "sha256": "4e0b028a5465f80bcab97961f723d2571e3f9105fd02a4cf1ffd60f4c86af9d1"
+        },
+        "src/Engine/MapEngine/Pet.js": {
+          "sha256": "50355189b462b726cce1d4369ff4331fa9927925375f19a9b86550e099574833"
+        },
+        "src/UI/Components/PetInformations/PetInformations.js": {
+          "sha256": "c431e37e6dd70a5ff978876dbc291a759b3a862a84b4475560f05c090ae4bd6f"
+        },
+        "src/Utils/CodepageManager.js": {
+          "sha256": "35fc6861784c27ce417697f8c4f2e999a7703bb89741b2ddb3ea0afc44c7733e"
+        },
+        "src/Vendors/xmlparse.js": {
+          "sha256": "f61607c4a30f7bc91bd11d83cfa4e5d5e9ad59be5c85b0f95a61c289d72bcd5f"
+        },
+        "src/UI/Components/Achievement/Achievement.js": {
+          "sha256": "17f87bb15a36c81630e775df281e2866c4ba4c688e7274220a23e5b04ae5f956",
+          "commit": "f6f4799cb356a75f94e4f35b85206cd1eb9c1be9"
+        },
+        "src/Vendors/wasmoon-lua5.1.js": {
+          "sha256": "911b957ca9d0fa40358d4612c00a4bd5a7bb4830309a5f2b310402196c69190c",
+          "commit": "f6f4799cb356a75f94e4f35b85206cd1eb9c1be9"
+        },
+        "src/Vendors/liblua5.1.wasm": {
+          "sha256": "cba969b97e8a319eba8996b5df488aed5cdd22a56f2de53b42598e474014e610",
+          "commit": "f6f4799cb356a75f94e4f35b85206cd1eb9c1be9"
+        }
+      }
+    }
+  },
+  "reference_sources": {
+    "ROenglishRE": {
+      "commit": "66cdfec631603fda6a90ba4bbe26ab07b5204c84",
+      "files": {
+        "Tools/msgstringtable/msgstringtable.txt": {
+          "size_bytes": 263618,
+          "sha256": "96d276370666015f748903a5bad754cbed9a04adec084b42273ee120fece3a0b"
+        },
+        "Translation/Compatibility/2023-08-02/data/msgstringtable.csv": {
+          "size_bytes": 342704,
+          "sha256": "3efd5f6e775912d7b971cc09d50d20137dd69235fed8c015ff468cc331b4e528"
+        },
+        "Translation/Renewal/data/msgstringtable.txt": {
+          "size_bytes": 138179,
+          "sha256": "29a644ed4b73732fe2a21ff90b418643194723287fb077b805860f3db9f5e85a"
+        },
+        "Translation/Renewal/SystemEN/Towninfo.lub": {
+          "size_bytes": 23110,
+          "sha256": "78e2e121550451c091b00a61ce8c554b9f8e61794b127e8f816e2206305e95b7"
+        },
+        "Translation/Renewal/SystemEN/Sign_Data.lub": {
+          "size_bytes": 4070,
+          "sha256": "a349311bc3c968677f6f6221e2a96911f2efbdb4e4924e868ae20733bfcef0e8"
+        },
+        "Translation/Renewal/data/luafiles514/lua files/signboardlist_f.lub": {
+          "size_bytes": 1818,
+          "sha256": "701f8071021f309d541a756f6b01e46c3ad16102342dc42959267fec7e08697e"
+        },
+        "Translation/Renewal/data/cardprefixnametable.txt": {
+          "size_bytes": 28956,
+          "sha256": "13bf9e9266a0e00f22dc89d1d8179efcf186c6c88fb53f968598980cac5191ea"
+        },
+        "Translation/Renewal/data/luafiles514/lua files/datainfo/addrandomoptionnametable.lub": {
+          "size_bytes": 19204,
+          "sha256": "b4b03ecc56e3afca24b36633ee26287d6b41b3f1ca76a7682bf329c95ed270fe"
+        },
+        "Additions/data/luafiles514/lua files/datainfo/enumvar.lub": {
+          "size_bytes": 10592,
+          "sha256": "3f9dad4c5616482ec988af257cb81492a63b96cfe34efcc7a147124915c570ea"
+        },
+        "Translation/Renewal/data/ba_frostjoke.txt": {
+          "size_bytes": 5085,
+          "sha256": "0b7304ca7d91b6778e2ffd862b8aad5aba8ec5b3b9ca8d935fe8969bd1df21cf"
+        },
+        "Translation/Renewal/data/dc_scream.txt": {
+          "size_bytes": 3598,
+          "sha256": "849359d205c5d79e3f74400019bf4b383fa99d7e858a5d8c2a07eeea49a5ba5e"
+        },
+        "Translation/Renewal/data/pettalktable.xml": {
+          "size_bytes": 425200,
+          "sha256": "0963a65a4c0ff3c11a751734b65202b1de81be3ea7a906868aac16cf66ba23b6"
+        },
+        "Translation/Renewal/SystemEN/achievements.lub": {
+          "size_bytes": 149446,
+          "sha256": "147e3900b550fc45c602a15f808867e04fa743df418bcb7d09eb97d2c51391c6",
+          "commit": "f7d270ec706622a8e0700e5e564d5fdbc3bcf3f5"
+        }
+      }
+    },
+    "official_stat_terminology": {
+      "kRO": "https://ro.gnjoy.com/guide/ragstart/basic2.asp",
+      "iRO": "https://iro.ragnarokonline.com/news/eventdetail.aspx?id=1608&p=4"
+    },
+    "pet_dialogue": {
+      "official_kRO_guide": "https://ro.gnjoy.com/guide/systeminfo/systemBeginner6.asp",
+      "clock_tower_background": "https://ragnarok.fandom.com/wiki/Clock_Tower",
+      "Yi_Ok_bong_poem": "https://oak.chosun.ac.kr/bitstream/2020.oak/15093/2/ICT%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%9C%20%ED%95%9C%EB%AC%B8%20%ED%95%99%EC%8A%B5%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%97%B0%EA%B5%AC.pdf",
+      "Jeong_Yak_yong_poem": "https://gudo57.tistory.com/entry/%E9%A3%AE%E9%85%92%EC%9D%8C%EC%A3%BC-%E4%BA%8C%E9%A6%96-1",
+      "White_Lady_name": "https://criatura-academy.com/monsters/1630-white-lady/"
+    },
+    "achievements": {
+      "kRO_developer_note": "https://ro.gnjoy.com/news/devnote/View.asp?category=3&curpage=6&seq=1669396",
+      "iRO_official_overview": "https://iro.ragnarokonline.com/news/updatedetail.aspx?id=291",
+      "iRO_reference_list": "https://irowiki.org/wiki/Achievement_System",
+      "jRO_system_guide": "https://ragnarokonline.gungho.jp/gameguide/system/records.html"
+    }
+  },
+  "path_meaning": "Client paths use kRO/ and iRO/ aliases; resolve these against local client installations."
+}

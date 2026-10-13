@@ -1,0 +1,11 @@
+{
+  "author": "Dizzzlectic",
+  "description": "An English retranslation for Ragnarok Offline's Renewal mode, checked against rAthena and native kRO.",
+  "name": "rotp-revamped",
+  "requires": {
+    "app": ">=1.4.3",
+    "era": "renewal"
+  },
+  "settings": [],
+  "version": "0.0.17"
+}
