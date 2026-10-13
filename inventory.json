@@ -216,7 +216,7 @@
         "total": 1349,
         "completed": 1349
       },
-      "notes": "1,339 source card IDs and 1,275 distinct source labels across 1,349 source records; ten repeated records are preserved. Two English reference labels supplement names missing from kRO. The mod supplies matching cardpostfixnametable.txt placement. Unconfirmed Latin spellings are recorded by ID in sources.json."
+      "notes": "1,339 source card IDs and 1,275 distinct source labels across 1,349 source records; ten repeated records are preserved. Two English reference labels supplement names missing from kRO. The mod supplies matching cardpostfixnametable.txt placement."
     },
     {
       "source": {

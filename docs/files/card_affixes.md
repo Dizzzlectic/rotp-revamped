@@ -37,13 +37,17 @@ For 300666, use “of Bulgasari”: 불가사리 names the monster here, rather 
 “starfish” or ROenglishRE's “Buddha.”
 
 kRO supplies suffix-placement IDs but no names for 4495 and 4496. Use
-Divine-Pride's iRO prefix “Sealed Protective's” for 4495, rather than
-ROenglishRE's suffix “of Half Protection.” For 4496, use “of Half Infinity,”
-supported by both references. These two English name records supplement kRO.
+Divine-Pride's iRO prefix
+[“Sealed Protective's”](https://www.divine-pride.net/database/item/4495) for
+4495, rather than ROenglishRE's suffix “of Half Protection.” For 4496, use
+[“of Half Infinity”](https://www.divine-pride.net/database/item/4496), supported
+by both references. These two English name records supplement kRO.
 
 300935 uses **Fadhgridh** to match the castle in the
-[map translations](map_names.md#translation-decisions). kRO's artwork spells the
-regional castle name “Razrygz”; the English affix uses its established iRO name.
+[map translations](map_names.md#translation-decisions) and its
+[iRO map record](https://ragnaplace.com/en/iro/map/prtg_cas03/fadhgridh). kRO's
+artwork spells the regional castle name “Razrygz”; the English affix uses its
+established iRO name.
 
 ## File format and client behavior
 

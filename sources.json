@@ -321,42 +321,7 @@
       "source_file": "data/cardprefixnametable.txt",
       "modified_at": "2026-10-13T22:26:01.183438+00:00",
       "sha256": "af47e68a0d6899f8c61fc58f3184dee659fb9b4436e059443a3503c3b1d1d79f",
-      "naming_policy": "Prefer established iRO affixes; use ROenglishRE where iRO has no name, correcting clear English errors separately.",
-      "placement_file": "src/data/cardpostfixnametable.txt",
-      "wording_notes": {
-        "27304": {
-          "source": "\ud5ec\uc2a4",
-          "iRO": "Hell's",
-          "ROenglishRE": "Healthy",
-          "Divine-Pride": "Health",
-          "translation": "Healthy",
-          "reason": "Likely iRO translation error inferred from ordinary health loanword, English references and HP recovery context; intended English spelling not confirmed by Gravity.",
-          "reference": "https://www.divine-pride.net/database/item/27304"
-        },
-        "300935": {
-          "source": "\ub77c\uc988\ub9ac\uadf8\uc2a4",
-          "translation": "Fadhgridh",
-          "map": "prtg_cas03",
-          "kRO_artwork": "Razrygz",
-          "iRO_castle_name": "Fadhgridh",
-          "reason": "Approved use of the established iRO castle name to match the map translations; English regional card-affix references remain unavailable.",
-          "reference": "https://ragnaplace.com/en/iro/map/prtg_cas03/fadhgridh"
-        }
-      },
-      "reference_fills": [
-        {
-          "id": 4495,
-          "translation": "Sealed Protective's",
-          "source": "Divine-Pride (iRO)",
-          "reference": "https://www.divine-pride.net/database/item/4495"
-        },
-        {
-          "id": 4496,
-          "translation": "of Half Infinity",
-          "source": "Divine-Pride (iRO) and ROenglishRE",
-          "reference": "https://www.divine-pride.net/database/item/4496"
-        }
-      ]
+      "placement_file": "src/data/cardpostfixnametable.txt"
     },
     "src/data/luafiles514/lua files/datainfo/addrandomoptionnametable.lub": {
       "source_client": "kRO",
@@ -491,8 +456,7 @@
       "source_client": "kRO",
       "source_file": "data/cardpostfixnametable.txt",
       "modified_at": "2026-10-13T22:18:40.373536+00:00",
-      "sha256": "6e6607641229c0383a007ae5f8abc1629cfe90cdff1c9a92c59adb21fb3b868c",
-      "placement_notes": "443 suffix IDs: preserve surviving kRO IDs in source order, remove English prefixes and append English suffix IDs in name-table order. Reference fills make 4495 a prefix and retain 4496 as a suffix."
+      "sha256": "6e6607641229c0383a007ae5f8abc1629cfe90cdff1c9a92c59adb21fb3b868c"
     }
   },
   "mod_version": "0.0.17",
