@@ -273,8 +273,8 @@
     "src/data/msgstringtable.csv": {
       "source_client": "kRO",
       "source_file": "data/msgstringtable.csv",
-      "modified_at": "2026-10-13T16:37:31.480579+00:00",
-      "sha256": "34a4f945f99eef265318ccf741c7773c6353935e3f8b983133d6d1eb2cebf004",
+      "modified_at": "2026-10-13T20:02:01.411953Z",
+      "sha256": "dd5358704a85f3e795d6757e0cc82f54aaf63d2fb573f55168cea986ca078c7c",
       "formatting_repairs": [
         {
           "id": "MSI_BILLING_DAY_HOUR_MINUTES",
