@@ -407,22 +407,7 @@
       "modified_at": "2026-10-13T20:22:06.495092+00:00",
       "sha256": "328bdf06ea738f09c70d00dcbd4ab461b7f3cd6898d3753fa29cca425a6577d4",
       "deferred_records": [],
-      "wording_reviews": [
-        {
-          "pet": "pecopeco, grand_peco",
-          "source": "\uc9c4\uc774 / \uc2e0\uc774",
-          "translation": "Jin / Shini",
-          "status": "spelling_unconfirmed",
-          "reason": "Different Korean names in otherwise similar dialogue are retained. iRO does not establish a matching proper-name spelling."
-        },
-        {
-          "pet": "CLB_SS_TZ",
-          "source": "\uc18c\ud654",
-          "translation": "Sohwa",
-          "status": "spelling_unconfirmed",
-          "reason": "The source names the neighbor \uc18c\ud654; iRO calls it \"the little flower next door.\" No corroborating Latin spelling or evidence identifying it as Sohee (\uc18c\ud76c) was found."
-        }
-      ],
+      "wording_reviews": [],
       "approved_source_wording": {
         "pet": "LITTLE_PORING",
         "records": [
