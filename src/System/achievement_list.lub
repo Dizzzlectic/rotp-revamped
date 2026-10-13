@@ -2656,7 +2656,7 @@ achievement_tbl = {
     [120131] = {
         UI_Type = 0,
         content = {
-            details = "이즈루드 주변 필드의 보물을 발견한다",
+            details = "Discover treasure in the fields around Izlude",
             summary = "Discover hidden treasure",
         },
         group = "ADVENTURE",
@@ -2664,14 +2664,14 @@ achievement_tbl = {
         minor = 5,
         resource = {
             [1] = {
-                text = "이즈루드 주변의 보물을 발견한다",
+                text = "Discover treasure around Izlude",
             },
         },
         reward = {
             item = 22876,
         },
         score = 20,
-        title = "이즈루드 던전 탐험",
+        title = "Izlude Dungeon Exploration",
     },
     [120132] = {
         UI_Type = 0,
@@ -2856,7 +2856,7 @@ achievement_tbl = {
     [120141] = {
         UI_Type = 0,
         content = {
-            details = "지하수로 주변 필드의 보물을 발견한다",
+            details = "Discover treasure in the fields around Prontera Underground Waterway",
             summary = "Discover hidden treasure",
         },
         group = "ADVENTURE",
@@ -2864,14 +2864,14 @@ achievement_tbl = {
         minor = 5,
         resource = {
             [1] = {
-                text = "지하수로 주변의 보물을 발견한다",
+                text = "Discover treasure around Prontera Underground Waterway",
             },
         },
         reward = {
             item = 22876,
         },
         score = 20,
-        title = "지하수로 던전 탐험",
+        title = "Prontera Underground Waterway Dungeon Exploration",
     },
     [120142] = {
         UI_Type = 0,
@@ -5363,7 +5363,7 @@ achievement_tbl = {
     [200005] = {
         UI_Type = 0,
         content = {
-            details = "Become a Swordsman, Merchant, Thief, Mage, Acolyte, or Archer.",
+            details = "Become a Swordman, Merchant, Thief, Magician, Acolyte, or Archer.",
             summary = "Change to a first job class",
         },
         group = "JOB_CHANGE",
@@ -5383,22 +5383,22 @@ achievement_tbl = {
     [200006] = {
         UI_Type = 0,
         content = {
-            details = "전승 검사, 상인, 도둑, 마법사, 복사, 궁수 중 하나로 전직한다.",
-            summary = "전승 1차 직업군으로 전직한다",
+            details = "Become a High Swordman, High Merchant, High Thief, High Magician, High Acolyte or High Archer.",
+            summary = "Change to a transcendent first job class",
         },
         group = "JOB_CHANGE",
         major = 1,
         minor = 0,
         resource = {
             [1] = {
-                text = "전승 1차 직업군으로 전직",
+                text = "Change to a transcendent first job class",
             },
         },
         reward = {
             buff = 12,
         },
         score = 20,
-        title = "전승직업군으로 첫 발!",
+        title = "First Step into Transcendence!",
     },
     [200007] = {
         UI_Type = 0,

@@ -163,9 +163,9 @@
       "status": "in_progress",
       "progress": {
         "total": 361,
-        "completed": 337
+        "completed": 340
       },
-      "notes": "Counts achievement records whose display text is fully translated. Titles, summaries, details and objective labels are covered; 43 conflicting display fields across 24 IDs retain Korean pending review.csv. Scores, targets, rewards, shortcuts, category keys and display settings retain kRO values. Requires achievements to be enabled."
+      "notes": "Counts achievement records whose display text is fully translated. Titles, summaries, details and objective labels are covered; 33 conflicting display fields across 21 IDs retain Korean pending review.csv. Scores, targets, rewards, shortcuts, category keys and display settings retain kRO values. Requires achievements to be enabled."
     },
     {
       "source": {
