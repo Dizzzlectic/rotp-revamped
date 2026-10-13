@@ -319,8 +319,8 @@
     "src/data/cardprefixnametable.txt": {
       "source_client": "kRO",
       "source_file": "data/cardprefixnametable.txt",
-      "modified_at": "2026-10-13T17:08:57.821109Z",
-      "sha256": "79e447717fb0f478fdb3729dbfb852e18991ae025847f4f4079fb44fc416f5f5",
+      "modified_at": "2026-10-13T22:18:40.373131+00:00",
+      "sha256": "118f9d3ee6b7fc1e2fb1690e9fa5621a8aa5140375cbdcd58a55f8664b08a7f6",
       "wording_reviews": [
         {
           "id": 300935,
@@ -346,7 +346,21 @@
           "reason": "Likely iRO translation error inferred from ordinary health loanword, English references and HP recovery context; intended English spelling not confirmed by Gravity.",
           "reference": "https://www.divine-pride.net/database/item/27304"
         }
-      }
+      },
+      "reference_fills": [
+        {
+          "id": 4495,
+          "translation": "Sealed Protective's",
+          "source": "Divine-Pride (iRO)",
+          "reference": "https://www.divine-pride.net/database/item/4495"
+        },
+        {
+          "id": 4496,
+          "translation": "of Half Infinity",
+          "source": "Divine-Pride (iRO) and ROenglishRE",
+          "reference": "https://www.divine-pride.net/database/item/4496"
+        }
+      ]
     },
     "src/data/luafiles514/lua files/datainfo/addrandomoptionnametable.lub": {
       "source_client": "kRO",
@@ -480,9 +494,9 @@
     "src/data/cardpostfixnametable.txt": {
       "source_client": "kRO",
       "source_file": "data/cardpostfixnametable.txt",
-      "modified_at": "2026-10-13T17:08:57.821727Z",
-      "sha256": "56d699d0cc339de54f4c1d12a1cb41d06ee110830e25e5e2115508b029240982",
-      "placement_notes": "444 suffix IDs: preserve surviving kRO IDs in source order, remove English prefixes and append English suffix IDs in name-table order. Preserve 4495 and 4496 without inventing labels."
+      "modified_at": "2026-10-13T22:18:40.373536+00:00",
+      "sha256": "6e6607641229c0383a007ae5f8abc1629cfe90cdff1c9a92c59adb21fb3b868c",
+      "placement_notes": "443 suffix IDs: preserve surviving kRO IDs in source order, remove English prefixes and append English suffix IDs in name-table order. Reference fills make 4495 a prefix and retain 4496 as a suffix."
     }
   },
   "mod_version": "0.0.17",

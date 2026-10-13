@@ -36,6 +36,11 @@ reading, but Gravity's intended English spelling remains unconfirmed.
 For 300666, use “of Bulgasari”: 불가사리 names the monster here, rather than
 “starfish” or ROenglishRE's “Buddha.”
 
+kRO supplies suffix-placement IDs but no names for 4495 and 4496. Use
+Divine-Pride's iRO prefix “Sealed Protective's” for 4495, rather than
+ROenglishRE's suffix “of Half Protection.” For 4496, use “of Half Infinity,”
+supported by both references. These two English name records supplement kRO.
+
 ## File format and client behavior
 
 Name records have the form `card ID#label#`. The placement table contains
@@ -45,11 +50,11 @@ of Health,” while “Healthy” renders as “Healthy Shoes.” Both files are
 so placement agrees in Korean client text and English translation mode,
 including newer kRO cards absent from iRO.
 
-Name-table IDs, record order, duplicates and `#` delimiters are preserved.
-Regional names can distinguish cards with identical Korean labels. The placement
-table retains surviving kRO suffix IDs in source order and appends English
-suffix IDs in name-table order. Source IDs 4495 and 4496 remain in the placement
-table even though kRO supplies no corresponding name records.
+Source name-table IDs, record order, duplicates and `#` delimiters are
+preserved. The two English reference name records are appended. Regional names
+can distinguish cards with identical Korean labels. The placement table retains
+surviving kRO suffix IDs in source order and appends English suffix IDs in
+name-table order.
 
 Both replacements contain ASCII text without a BOM and use CRLF line endings.
 Their bytes are identical in UTF-8 and CP949.

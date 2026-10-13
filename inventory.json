@@ -216,7 +216,7 @@
         "total": 1349,
         "completed": 1349
       },
-      "notes": "1,339 card IDs and 1,275 distinct source labels across 1,349 records; ten repeated records are preserved. Prefer established iRO names with clear English errors corrected separately. The mod supplies matching cardpostfixnametable.txt placement. Unconfirmed Latin spellings are recorded by ID in sources.json."
+      "notes": "1,339 source card IDs and 1,275 distinct source labels across 1,349 source records; ten repeated records are preserved. Two English reference labels supplement names missing from kRO. The mod supplies matching cardpostfixnametable.txt placement. Unconfirmed Latin spellings are recorded by ID in sources.json."
     },
     {
       "source": {
@@ -232,7 +232,7 @@
         "total": 404,
         "completed": 404
       },
-      "notes": "Reviewed all 404 source IDs. Ships 444 IDs after removing 52 English prefixes and adding 92 English suffixes; retains kRO-only suffixes and the two source IDs without name-table labels. Numeric placement data, not translated text."
+      "notes": "Reviewed all 404 source IDs. Ships 443 IDs after removing 53 English prefixes and adding 92 English suffixes. Numeric placement data, not translated text."
     },
     {
       "source": {
