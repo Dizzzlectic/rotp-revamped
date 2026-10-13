@@ -255,14 +255,14 @@
     "src/data/mapnametable.txt": {
       "source_client": "kRO",
       "source_file": "data/mapnametable.txt",
-      "modified_at": "2026-10-13T16:18:52.400578+00:00",
-      "sha256": "ab8d7ee600b8768ed4366faed75b4b878c8624dab27f62b97c4e04a43283a32e"
+      "modified_at": "2026-10-13T22:25:09.870489+00:00",
+      "sha256": "323244f027b7df6c75530e8488b1672c043b2475e4439f9da93eb2fcf1c9c4f0"
     },
     "src/System/mapInfo.lub": {
       "source_client": "kRO",
       "source_file": "System/mapInfo_true.lub",
-      "modified_at": "2026-10-13T16:27:01.927285+00:00",
-      "sha256": "cf3b71f29685671a40ce4f94eba25f132539d7a377196908c88443f9e92d2f59"
+      "modified_at": "2026-10-13T22:25:09.871850+00:00",
+      "sha256": "4983460746467da82f8268cc48aeaafea698942ba0eb5954fe0ec1c06b9c9841"
     },
     "src/data/luafiles514/lua files/datainfo/titletable.lub": {
       "source_client": "kRO",
@@ -319,21 +319,8 @@
     "src/data/cardprefixnametable.txt": {
       "source_client": "kRO",
       "source_file": "data/cardprefixnametable.txt",
-      "modified_at": "2026-10-13T22:18:40.373131+00:00",
-      "sha256": "118f9d3ee6b7fc1e2fb1690e9fa5621a8aa5140375cbdcd58a55f8664b08a7f6",
-      "wording_reviews": [
-        {
-          "id": 300935,
-          "source": "\ub77c\uc988\ub9ac\uadf8\uc2a4",
-          "translation": "Lazrigs",
-          "status": "spelling_unconfirmed",
-          "reason": "Proper name romanized from Korean. No matching label was found in either English reference table, and no corresponding Latin NPCIdentity key was established.",
-          "references": {
-            "iRO": null,
-            "ROenglishRE": null
-          }
-        }
-      ],
+      "modified_at": "2026-10-13T22:26:01.183438+00:00",
+      "sha256": "af47e68a0d6899f8c61fc58f3184dee659fb9b4436e059443a3503c3b1d1d79f",
       "naming_policy": "Prefer established iRO affixes; use ROenglishRE where iRO has no name, correcting clear English errors separately.",
       "placement_file": "src/data/cardpostfixnametable.txt",
       "wording_notes": {
@@ -345,6 +332,15 @@
           "translation": "Healthy",
           "reason": "Likely iRO translation error inferred from ordinary health loanword, English references and HP recovery context; intended English spelling not confirmed by Gravity.",
           "reference": "https://www.divine-pride.net/database/item/27304"
+        },
+        "300935": {
+          "source": "\ub77c\uc988\ub9ac\uadf8\uc2a4",
+          "translation": "Fadhgridh",
+          "map": "prtg_cas03",
+          "kRO_artwork": "Razrygz",
+          "iRO_castle_name": "Fadhgridh",
+          "reason": "Approved use of the established iRO castle name to match the map translations; English regional card-affix references remain unavailable.",
+          "reference": "https://ragnaplace.com/en/iro/map/prtg_cas03/fadhgridh"
         }
       },
       "reference_fills": [

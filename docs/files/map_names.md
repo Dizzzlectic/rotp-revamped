@@ -23,6 +23,10 @@ Retain town descriptors omitted by ROenglishRE, such as Prontera's role as the
 capital and Izlude's role as a satellite city. Keep “Upper Floors” and “Lower
 Floors” as distinct labels instead of assigning unsupported floor numbers.
 
+`prtg_cas03` and its siege-simulation maps use **Fadhgridh**, the established
+iRO and ROenglishRE name for kRO's 라즈리그스. The castle banner uses “Valkyrie
+Realm” as its subtitle and “Fadhgridh” as its main title.
+
 ## File format and client behavior
 
 The client checks `mapInfo.lub` before `mapInfo_true.lub` and accepts readable

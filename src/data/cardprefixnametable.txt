@@ -1334,7 +1334,7 @@
 300904#West Grave#
 300905#South Grave#
 300906#North Grave#
-300935#Lazrigs#
+300935#Fadhgridh#
 300952#East Forge#
 300953#West Forge#
 300954#South Forge#

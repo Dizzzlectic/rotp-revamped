@@ -41,6 +41,10 @@ Divine-Pride's iRO prefix “Sealed Protective's” for 4495, rather than
 ROenglishRE's suffix “of Half Protection.” For 4496, use “of Half Infinity,”
 supported by both references. These two English name records supplement kRO.
 
+300935 uses **Fadhgridh** to match the castle in the
+[map translations](map_names.md#translation-decisions). kRO's artwork spells the
+regional castle name “Razrygz”; the English affix uses its established iRO name.
+
 ## File format and client behavior
 
 Name records have the form `card ID#label#`. The placement table contains

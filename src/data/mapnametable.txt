@@ -747,7 +747,7 @@ gefg_cas02.rsw#Eeyorbriggar#
 gefg_cas01.rsw#Repherion#
 prtg_cas05.rsw#Gondul#
 prtg_cas04.rsw#Skoegul#
-prtg_cas03.rsw#Radsgrith#
+prtg_cas03.rsw#Fadhgridh#
 prtg_cas02.rsw#Swanhild#
 prtg_cas01.rsw#Kriemhild#
 prt_gld.rsw#Valkyrie Realm#
