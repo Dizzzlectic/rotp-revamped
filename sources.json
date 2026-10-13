@@ -274,29 +274,7 @@
       "source_client": "kRO",
       "source_file": "data/msgstringtable.csv",
       "modified_at": "2026-10-13T20:02:01.411953Z",
-      "sha256": "dd5358704a85f3e795d6757e0cc82f54aaf63d2fb573f55168cea986ca078c7c",
-      "formatting_repairs": [
-        {
-          "id": "MSI_BILLING_DAY_HOUR_MINUTES",
-          "row": 677,
-          "placeholders": [
-            "%d",
-            "%d",
-            "%d"
-          ],
-          "reference": "ROenglishRE/Tools/msgstringtable/msgstringtable.txt"
-        },
-        {
-          "id": "MSI_BILLING_2",
-          "row": 1125,
-          "placeholders": [
-            "%d",
-            "%d",
-            "%d"
-          ],
-          "reference": "ROenglishRE/Tools/msgstringtable/msgstringtable.txt"
-        }
-      ]
+      "sha256": "dd5358704a85f3e795d6757e0cc82f54aaf63d2fb573f55168cea986ca078c7c"
     },
     "src/System/Towninfo.lub": {
       "source_client": "kRO",
@@ -327,26 +305,7 @@
       "source_client": "kRO",
       "source_file": "data/luafiles514/lua files/datainfo/addrandomoptionnametable.lub",
       "modified_at": "2026-10-13T16:18:52.405222+00:00",
-      "sha256": "c9bb6a43cfa4b838021962c1e9eccac50e2e7e468520999cb9dceb0b9b22679a",
-      "deferred_ids": [],
-      "numeric_display": {
-        "option_ids": [
-          117,
-          118,
-          119,
-          120,
-          121,
-          122,
-          123,
-          124,
-          125,
-          126
-        ],
-        "divisor": 10,
-        "arithmetic": "rAthena integer division",
-        "client_display": "Literal division expression; arithmetic is not evaluated",
-        "reference_client": "iRO"
-      }
+      "sha256": "c9bb6a43cfa4b838021962c1e9eccac50e2e7e468520999cb9dceb0b9b22679a"
     },
     "src/data/ba_frostjoke.txt": {
       "source_client": "kRO",
@@ -367,23 +326,7 @@
       "source_file": "data/pettalktable.xml",
       "source_decoding": "docs/files/pet_dialogue.md#source-text-decoding",
       "modified_at": "2026-10-13T20:22:06.495092+00:00",
-      "sha256": "328bdf06ea738f09c70d00dcbd4ab461b7f3cd6898d3753fa29cca425a6577d4",
-      "deferred_records": [],
-      "wording_reviews": [],
-      "approved_source_wording": {
-        "pet": "LITTLE_PORING",
-        "records": [
-          "LITTLE_PORING/hungry/perfor_1[1]",
-          "LITTLE_PORING/bit_hungry/perfor_1[1]",
-          "LITTLE_PORING/noting/perfor_1[1]",
-          "LITTLE_PORING/full/perfor_1[1]",
-          "LITTLE_PORING/so_full/perfor_1[1]",
-          "LITTLE_PORING/noting/feeding[1]",
-          "LITTLE_PORING/full/stand[3]",
-          "LITTLE_PORING/so_full/stand[6]"
-        ],
-        "implementation_differences": "../../docs/RATHENA_DISCREPANCIES.md#little-poring-tutorial"
-      }
+      "sha256": "328bdf06ea738f09c70d00dcbd4ab461b7f3cd6898d3753fa29cca425a6577d4"
     },
     "src/System/achievement_list.lub": {
       "source_client": "kRO",

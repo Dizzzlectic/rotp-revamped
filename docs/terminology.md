@@ -131,7 +131,8 @@ preserves the source's meaning. When direct conversion produces no useful name
 or no English alternative is available, kRO's `NPCIdentity` keys can help
 establish Latin monster spellings. Match the key to the entity first; an
 internal identifier is evidence for a name, not an English translation of every
-label associated with it. Record unconfirmed spellings in `sources.json`.
+label associated with it. Unresolved spellings follow the
+[project review guidance](../../../docs/TRANSLATION_PROJECT.md#sources-and-unresolved-decisions).
 
 Card affixes prefer established iRO names, using ROenglishRE where iRO has no
 name and correcting clear English errors separately. These are proper names, so

@@ -70,7 +70,7 @@
         "total": 4467,
         "completed": 4467
       },
-      "notes": "Base64-encoded UTF-8 identifiers and messages, matched by row position after TXT tables. English commands follow reference tables and supported client spellings; legacy commands may be unavailable. Inventory tabs use Use/Eqp/Etc/Fav, equipment tabs General/Costume (including shadow equipment), and visibility Show Equip. Shared stat, element, race, achievement and pet-state names follow docs/terminology.md. Formatting repairs are recorded in sources.json."
+      "notes": "Progress includes intentionally empty message rows."
     },
     {
       "source": {
@@ -181,7 +181,7 @@
         "total": 307,
         "completed": 307
       },
-      "notes": "56 maps with 20 distinct translated labels. The town-info loader fix is merged in roBrowserLegacy; older client builds need that fix to register every entry. Both destination paths contain the same complete kRO table.",
+      "notes": "56 maps with 20 distinct translated labels. Both destination paths contain the same complete kRO table.",
       "additional_destinations": [
         "src/SystemEN/Towninfo.lub"
       ]
@@ -280,7 +280,7 @@
         "total": 11517,
         "completed": 11517
       },
-      "notes": "135 pet blocks. Counts nonempty dialogue occurrences, including repeats; two blank records are unchanged. Little Poring's tutorial wording preserves the approved kRO descriptions; accepted implementation differences remain in the rAthena discrepancy tracker. XML tag spelling and case are preserved; the current client only resolves matching lowercase pet keys with four-digit monster IDs below 4000."
+      "notes": "135 pet blocks. Counts nonempty dialogue occurrences, including repeats; two blank records are unchanged."
     },
     {
       "source": {
@@ -296,7 +296,7 @@
         "total": 253,
         "completed": 253
       },
-      "notes": "Progress excludes the unchanged END sentinel. Options 117-126 use the approved iRO division expression for rAthena scaling; the client displays the expression literally."
+      "notes": "Progress excludes the unchanged END sentinel."
     },
     {
       "source": {
