@@ -4436,7 +4436,7 @@
 			<feeding> *Burrrp*~ I'm a bit full.  </feeding>
 			<feeding> Nothing beats the feeling of rolling one around in your mouth!  </feeding>
 			<hunting> That one's in a couple!! Come on, let's punish them!  </hunting>
-			<hunting> What color are your crystals? </hunting>
+			<hunting> What color is your crystal? </hunting>
 			<hunting> Nothing to do today but hunt. We're the invincible singles brigade. </hunting>
 			<danger> Keep it up! Show them the power of being single!!  </danger>
 			<danger> Help me, Antonio!! </danger>
@@ -4468,7 +4468,7 @@
 			<feeding> *Burrrp*~ I'm a bit full.  </feeding>
 			<feeding> Ugh... A little of what came back up got on my mask. -_- </feeding>
 			<feeding> I can't eat any more. I feel like I'm going to turn into a hard crystal.  </feeding>
-			<hunting> What color are your crystals? </hunting>
+			<hunting> What color is your crystal? </hunting>
 			<hunting> I want to hit them too! Gotta hurry up and become a Goblin Hero! </hunting>
 			<hunting> Nothing to do today but hunt. We're the invincible singles brigade. </hunting>
 			<danger> The fate of the singles brigade rests in your hands! Be strong! </danger>
@@ -5038,7 +5038,7 @@
 			<feeding> *Burrrp*~ I'm a bit full.  </feeding>
 			<feeding> Nothing beats swallowing one whole, peel and all! Gulp~!  </feeding>
 			<hunting> That one's in a couple!! Come on, let's punish them!  </hunting>
-			<hunting> What color are your crystals? </hunting>
+			<hunting> What color is your crystal? </hunting>
 			<hunting> Nothing to do today but hunt. We're the invincible singles brigade. </hunting>
 			<danger> Keep it up! Show them the power of being single!!  </danger>
 			<danger> That one killed our pal Axe!!!! </danger>
@@ -5067,7 +5067,7 @@
 			<feeding> Sour apple juice is coming back up. *Burrrp* =3  </feeding>
 			<feeding> Ugh... A little of what came back up got on my mask. -_- </feeding>
 			<feeding> I can't eat any more. Are you planning to grind me up, put me in an empty can and sell me?!  </feeding>
-			<hunting> What color are your crystals? </hunting>
+			<hunting> What color is your crystal? </hunting>
 			<hunting> I want to hit them too! Gotta hurry up and become a Goblin Hero! </hunting>
 			<hunting> Nothing to do today but hunt. We're the invincible singles brigade. </hunting>
 			<danger> The fate of the singles brigade rests in your hands! Be strong! </danger>
@@ -5183,7 +5183,7 @@
 			<feeding> *Burrrp*~ I'm a bit full.  </feeding>
 			<feeding> Nothing beats swallowing one whole, peel and all! Gulp~!  </feeding>
 			<hunting> That one's in a couple!! Come on, let's punish them!  </hunting>
-			<hunting> What color are your crystals? </hunting>
+			<hunting> What color is your crystal? </hunting>
 			<hunting> Nothing to do today but hunt. We're the invincible singles brigade. </hunting>
 			<danger> Keep it up! Show them the power of being single!!  </danger>
 			<danger> That one killed our pal Axe!!!! </danger>
@@ -5210,7 +5210,7 @@
 			<feeding> Sour apple juice is coming back up. *Burrrp* =3  </feeding>
 			<feeding> Ugh... A little of what came back up got on my mask. -_- </feeding>
 			<feeding> I can't eat any more. Are you planning to grind me up, put me in an empty can and sell me?!  </feeding>
-			<hunting> What color are your crystals? </hunting>
+			<hunting> What color is your crystal? </hunting>
 			<hunting> I want to hit them too! Gotta hurry up and become a Goblin Hero! </hunting>
 			<hunting> Nothing to do today but hunt. We're the invincible singles brigade. </hunting>
 			<danger> The fate of the singles brigade rests in your hands! Be strong! </danger>
@@ -5324,7 +5324,7 @@
 			<feeding> Burp~ I'm getting pretty full.  </feeding>
 			<feeding> Yep, skin and all, in one big gulp!  </feeding>
 			<hunting> That one's in a relationship!! Let's make it pay!  </hunting>
-			<hunting> What color are your crystals? </hunting>
+			<hunting> What color is your crystal? </hunting>
 			<hunting> Nothing to do but hunt today. We're the invincible army of singles. </hunting>
 			<danger> Come on! Show them the power of being single!!  </danger>
 			<danger> That guy killed Axe Goblin!!!! </danger>
@@ -5351,7 +5351,7 @@
 			<feeding> I'm burping up sour apples. Urrp!  </feeding>
 			<feeding> Ugh... Got a little vomit on my mask. -_- </feeding>
 			<feeding> I can't eat any more. Are you planning to grind me up and sell me in a tin?!  </feeding>
-			<hunting> What color are your crystals? </hunting>
+			<hunting> What color is your crystal? </hunting>
 			<hunting> Let me hit it too! I've got to change jobs to Goblin Hero! </hunting>
 			<hunting> Nothing to do but hunt today. We're the invincible army of singles. </hunting>
 			<danger> The fate of the singles' army rests in your hands! You can do it! </danger>
@@ -6458,8 +6458,8 @@
 			<danger>	Hmm... Your strength's drying up, Master?	</danger>
 			<danger>	When you take out a potion, could you get mine too? 	</danger>
 			<dead>	...Brought that on yourself, didn't you? Hm? </dead>
-			<dead>	Hmm... Old man Unakseok used to share his snacks sometimes... Suddenly I miss him. 	</dead>
-			<stand>	Hmm... Old man Unakseok used to share his snacks sometimes... Suddenly I miss him.	</stand>
+			<dead>	Since you're already lying down, let's head back to town and rest a bit. Have a good meal too, shall we? 	</dead>
+			<stand>	Hmm... That old Cloud Hermit used to share his snacks sometimes... Suddenly I miss him.	</stand>
 			<stand>	Why am I here instead of heaven? Because I love the morning dew you bring me so much?</stand>
 			<stand>	...I like a moisture-laden breeze. It settles on the grass. That stuff.	</stand>
 			<connect>	Finally making your entrance, Master?	</connect>

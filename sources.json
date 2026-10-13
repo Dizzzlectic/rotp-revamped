@@ -404,24 +404,10 @@
       "source_client": "kRO",
       "source_file": "data/pettalktable.xml",
       "source_decoding": "docs/files/pet_dialogue.md#source-text-decoding",
-      "modified_at": "2026-10-13T16:18:52.421583+00:00",
-      "sha256": "fee80d3b7e4aba55ed83b9d09dd04c79b3ca1e9bf2f2430702be09008893dbde",
+      "modified_at": "2026-10-13T20:22:06.495092+00:00",
+      "sha256": "328bdf06ea738f09c70d00dcbd4ab461b7f3cd6898d3753fa29cca425a6577d4",
       "deferred_records": [],
       "wording_reviews": [
-        {
-          "pet": "gobline_xmas, goblin_1, goblin_2, goblin_4",
-          "source": "\ub124\ub188\uc758 \uacb0\uc815\uc740 \ubb34\uc2a8\uc0c9\uc774\ub0d0?",
-          "translation": "What color are your crystals?",
-          "status": "reading_unconfirmed",
-          "reason": "\uacb0\uc815 can mean crystal or decision. The color question and nearby hard-crystal line favor crystal. No corroborating allusion was found."
-        },
-        {
-          "pet": "WICKED_NYMPH",
-          "source": "\uc6b4\uc545\uc11d \ud560\uc544\ubc84\uc9c0",
-          "translation": "Old man Unakseok",
-          "status": "spelling_unconfirmed",
-          "reason": "Retains the source name rather than assuming a typo for Cloud Hermit (\uc6b4\uc545\uc120)."
-        },
         {
           "pet": "pecopeco, grand_peco",
           "source": "\uc9c4\uc774 / \uc2e0\uc774",
@@ -434,7 +420,7 @@
           "source": "\uc18c\ud654",
           "translation": "Sohwa",
           "status": "spelling_unconfirmed",
-          "reason": "Phonetic spelling for the named neighbor; no corroborating Latin spelling found."
+          "reason": "The source names the neighbor \uc18c\ud654; iRO calls it \"the little flower next door.\" No corroborating Latin spelling or evidence identifying it as Sohee (\uc18c\ud76c) was found."
         }
       ],
       "approved_source_wording": {

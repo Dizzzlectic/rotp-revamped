@@ -25,6 +25,10 @@ Pet dialogue keeps Poring's playful affection, Rocker's musical boasts, High
 Orc's military formality, robotic diagnostics and the undead pets' solemn
 fragments.
 
+The Goblins' color question uses **crystal** for `결정`, supported by another
+line about becoming a hard crystal. Wicked Nymph's `운악석 할아버지` is read as
+an elderly Cloud Hermit, treating `운악석` as a source typo for `운악선`.
+
 Civil Servant's poetry is translated from the Korean originals: Yi Ok-bong's
 dream poem in
 [university research](https://oak.chosun.ac.kr/bitstream/2020.oak/15093/2/ICT%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%9C%20%ED%95%9C%EB%AC%B8%20%ED%95%99%EC%8A%B5%EC%97%90%20%EA%B4%80%ED%95%9C%20%EC%97%B0%EA%B5%AC.pdf)
