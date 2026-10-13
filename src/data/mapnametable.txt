@@ -330,15 +330,15 @@ ma_dun01.rsw#Bangungot Hospital F1#
 1@ma_h.rsw#Bangungot Hospital F2#
 1@ma_c.rsw#Buwaya Cave#
 1@ma_b.rsw#Bakonawa Hideout#
-ma_zif01.rsw#Inside of Jeepney#
-ma_zif02.rsw#Inside of Jeepney#
-ma_zif03.rsw#Inside of Jeepney#
-ma_zif04.rsw#Inside of Jeepney#
-ma_zif05.rsw#Inside of Jeepney#
-ma_zif06.rsw#Inside of Jeepney#
-ma_zif07.rsw#Inside of Jeepney#
-ma_zif08.rsw#Inside of Jeepney#
-ma_zif09.rsw#Inside of Jeepney#
+ma_zif01.rsw#Inside the Jeepney#
+ma_zif02.rsw#Inside the Jeepney#
+ma_zif03.rsw#Inside the Jeepney#
+ma_zif04.rsw#Inside the Jeepney#
+ma_zif05.rsw#Inside the Jeepney#
+ma_zif06.rsw#Inside the Jeepney#
+ma_zif07.rsw#Inside the Jeepney#
+ma_zif08.rsw#Inside the Jeepney#
+ma_zif09.rsw#Inside the Jeepney#
 job_ko.rsw#Hidden Place#
 
 gld_dun01_2.rsw#Guild Dungeon F2#
@@ -386,7 +386,7 @@ bra_in01.rsw#Inside Brasilis#
 bra_fild01.rsw#Brasilis Field#
 bra_dun01.rsw#Brasilis Waterfall Cave Entrance#
 bra_dun02.rsw#Inside the Brasilis Waterfall Cave#
-moc_para01.rsw#Inside of Morroc Eden Group#
+moc_para01.rsw#Inside the Morroc Eden Group#
 job3_arch01.rsw#Archbishop Job Change Waiting Room#
 job3_arch02.rsw#Hugel - Odin's Temple#
 job3_arch03.rsw#Archbishop Job Change Waiting Room#

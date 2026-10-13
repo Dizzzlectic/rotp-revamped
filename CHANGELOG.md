@@ -8,9 +8,9 @@
 
 ## 0.0.16
 
-- Translate all 11,517 pet dialogue entries across 135 kRO pet blocks, preserving
-  each pet's personality, hunger states, action keys and repeated lines. Retain
-  the approved kRO tutorial descriptions for Little Poring.
+- Translate all 11,517 pet dialogue entries across 135 kRO pet blocks,
+  preserving each pet's personality, hunger states, action keys and repeated
+  lines. Retain the approved kRO tutorial descriptions for Little Poring.
 
 ## 0.0.15
 
@@ -21,7 +21,8 @@
 
 - Translate all 253 equipment random-option descriptions. Preserve option IDs,
   numeric placeholders and the END sentinel.
-- Standardize stat labels and explanatory stat terminology across message strings.
+- Standardize stat labels and explanatory stat terminology across message
+  strings.
 - Use Critical for critical-chance labels and bonuses, Creativity for CRT, and
   iRO's division expression for race-specific critical bonuses.
 
@@ -50,8 +51,8 @@
 
 ## 0.0.8
 
-- Use ROenglishRE's three-character inventory labels: Use, Eqp, Etc and Fav.
-  The four-character labels still overflowed the vertical tabs.
+- Use ROenglishRE's three-character inventory labels: Use, Eqp, Etc and Fav. The
+  four-character labels still overflowed the vertical tabs.
 
 ## 0.0.7
 
@@ -79,8 +80,8 @@
 
 - Translated the complete kRO client message table, including interface labels,
   command help and error messages. Preserved row positions, identifiers and
-  formatting, with English command spellings and corrected numeric fields in
-  the two retired account-time billing messages.
+  formatting, with English command spellings and corrected numeric fields in the
+  two retired account-time billing messages.
 
 ## 0.0.2
 
@@ -89,8 +90,8 @@
 
 ## 0.0.1
 
-- Translated the complete native kRO map-name and map-info tables, including
-  map labels, entry-banner titles and subtitles. Shared labels use consistent
+- Translated the complete native kRO map-name and map-info tables, including map
+  labels, entry-banner titles and subtitles. Shared labels use consistent
   wording while retaining regional, directional and floor details.
-- Preserved map identifiers, banner backgrounds and notification settings in
-  the complete table overrides. These also apply in English translation mode.
+- Preserved map identifiers, banner backgrounds and notification settings in the
+  complete table overrides. These also apply in English translation mode.

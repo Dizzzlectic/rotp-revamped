@@ -70,7 +70,7 @@
         "total": 4467,
         "completed": 4467
       },
-      "notes": "Base64-encoded UTF-8 identifiers and messages. Loaded after the TXT message tables and matched by row position. English command spellings are checked against reference tables and client support; legacy commands may remain unavailable. The two retired billing messages use corrected numeric placeholders. Inventory tabs use three-character labels to fit the vertical buttons. Equipment tabs use General and Costume; Costume includes shadow equipment. Equipment visibility uses Show Equip. Equipment controls use Equipment Set and Unequip All. Stat descriptions use inline captions and green emphasis. Stat labels use uppercase abbreviations, including MATK, MDEF and ASPD, with Critical for the critical-chance label. Explanations use critical hit chance and Creativity for CRT."
+      "notes": "Base64-encoded UTF-8 identifiers and messages, matched by row position after TXT tables. English commands follow reference tables and supported client spellings; legacy commands may be unavailable. Inventory tabs use Use/Eqp/Etc/Fav, equipment tabs General/Costume (including shadow equipment), and visibility Show Equip. Shared stat, element, race, achievement and pet-state names follow docs/terminology.md. Formatting repairs are recorded in sources.json."
     },
     {
       "source": {
@@ -216,7 +216,23 @@
         "total": 1349,
         "completed": 1349
       },
-      "notes": "1,339 card IDs and 1,275 distinct labels across 1,349 records; ten repeated records are preserved. Prefix or suffix placement comes from the unchanged kRO cardpostfixnametable.txt. Unconfirmed Latin spellings are recorded by ID in sources.json."
+      "notes": "1,339 card IDs and 1,275 distinct source labels across 1,349 records; ten repeated records are preserved. Prefer established iRO names with clear English errors corrected separately. The mod supplies matching cardpostfixnametable.txt placement. Unconfirmed Latin spellings are recorded by ID in sources.json."
+    },
+    {
+      "source": {
+        "client": "kRO",
+        "path": "data/cardpostfixnametable.txt",
+        "container": "data.grf"
+      },
+      "destination": "src/data/cardpostfixnametable.txt",
+      "description": "English card suffix placement",
+      "client_support": "supported",
+      "status": "complete",
+      "progress": {
+        "total": 404,
+        "completed": 404
+      },
+      "notes": "Reviewed all 404 source IDs. Ships 444 IDs after removing 52 English prefixes and adding 92 English suffixes; retains kRO-only suffixes and the two source IDs without name-table labels. Numeric placement data, not translated text."
     },
     {
       "source": {
@@ -362,7 +378,7 @@
     {
       "source": {
         "client": "kRO",
-        "path": "data/texture/유저인터페이스/basic_interface/equipwin_bg.bmp",
+        "path": "data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/basic_interface/equipwin_bg.bmp",
         "container": "data.grf"
       },
       "destination": null,

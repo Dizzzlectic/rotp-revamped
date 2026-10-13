@@ -255,14 +255,14 @@
     "src/data/mapnametable.txt": {
       "source_client": "kRO",
       "source_file": "data/mapnametable.txt",
-      "modified_at": "2026-10-11T04:15:19.598674Z",
-      "sha256": "f68cf84997f92fe0a4f555814b9ffeb8fe2d50fd5c4d9dd11e6594e6c8aaab71"
+      "modified_at": "2026-10-13T16:18:52.400578+00:00",
+      "sha256": "ab8d7ee600b8768ed4366faed75b4b878c8624dab27f62b97c4e04a43283a32e"
     },
     "src/System/mapInfo.lub": {
       "source_client": "kRO",
       "source_file": "System/mapInfo_true.lub",
-      "modified_at": "2026-10-11T04:15:19.599065Z",
-      "sha256": "ca93a1ee6d2e866ce9ad2341f41a9664345a9c755c5bb1ea0ed1646e97763c94"
+      "modified_at": "2026-10-13T16:27:01.927285+00:00",
+      "sha256": "cf3b71f29685671a40ce4f94eba25f132539d7a377196908c88443f9e92d2f59"
     },
     "src/data/luafiles514/lua files/datainfo/titletable.lub": {
       "source_client": "kRO",
@@ -273,8 +273,8 @@
     "src/data/msgstringtable.csv": {
       "source_client": "kRO",
       "source_file": "data/msgstringtable.csv",
-      "modified_at": "2026-10-12T17:24:26.644638+00:00",
-      "sha256": "411ab978f9e3600db8813c2219932f429c04f3219f8e3aa44fb7db0082c2569d",
+      "modified_at": "2026-10-13T16:37:31.480579+00:00",
+      "sha256": "34a4f945f99eef265318ccf741c7773c6353935e3f8b983133d6d1eb2cebf004",
       "formatting_repairs": [
         {
           "id": "MSI_BILLING_DAY_HOUR_MINUTES",
@@ -313,37 +313,15 @@
     "src/data/luafiles514/lua files/SignBoardList.lub": {
       "source_client": "kRO",
       "source_file": "data/luafiles514/lua files/SignBoardList.lub",
-      "modified_at": "2026-10-11T22:06:13.246739Z",
-      "sha256": "5291a23bc614f006a8c51f848b168c3557ade2887a834260ce9b64100d723f85"
+      "modified_at": "2026-10-13T16:18:52.401287+00:00",
+      "sha256": "43a35d8750de60e2ce1ac91073300ee4bf7188c26fabf5f8d02098aff541f051"
     },
     "src/data/cardprefixnametable.txt": {
       "source_client": "kRO",
       "source_file": "data/cardprefixnametable.txt",
-      "modified_at": "2026-10-11T22:32:44.992959Z",
-      "sha256": "660c39a21e0ea11b4c792870dc7d6786425840d005d1b0378e7bed6e84dd982c",
+      "modified_at": "2026-10-13T17:08:57.821109Z",
+      "sha256": "79e447717fb0f478fdb3729dbfb852e18991ae025847f4f4079fb44fc416f5f5",
       "wording_reviews": [
-        {
-          "id": 27181,
-          "source": "\ubc18\ubc14\uc778",
-          "translation": "Banvain",
-          "status": "spelling_unconfirmed",
-          "reason": "Phonetic spelling retained. Both English references use Bane Band, which does not closely match the Korean label. The intended Latin spelling is unconfirmed.",
-          "references": {
-            "iRO": "Bane Band",
-            "ROenglishRE": "Bane Band"
-          }
-        },
-        {
-          "id": 27287,
-          "source": "\uc624\ube0c \ub8e8\ub2c8\uba3c\ud2b8",
-          "translation": "of Luniment",
-          "status": "spelling_unconfirmed",
-          "reason": "Phonetic spelling retained. The English references disagree; the Korean label does not establish which spelling was intended.",
-          "references": {
-            "iRO": "of Luminant",
-            "ROenglishRE": "of Liniment"
-          }
-        },
         {
           "id": 300935,
           "source": "\ub77c\uc988\ub9ac\uadf8\uc2a4",
@@ -355,13 +333,26 @@
             "ROenglishRE": null
           }
         }
-      ]
+      ],
+      "naming_policy": "Prefer established iRO affixes; use ROenglishRE where iRO has no name, correcting clear English errors separately.",
+      "placement_file": "src/data/cardpostfixnametable.txt",
+      "wording_notes": {
+        "27304": {
+          "source": "\ud5ec\uc2a4",
+          "iRO": "Hell's",
+          "ROenglishRE": "Healthy",
+          "Divine-Pride": "Health",
+          "translation": "Healthy",
+          "reason": "Likely iRO translation error inferred from ordinary health loanword, English references and HP recovery context; intended English spelling not confirmed by Gravity.",
+          "reference": "https://www.divine-pride.net/database/item/27304"
+        }
+      }
     },
     "src/data/luafiles514/lua files/datainfo/addrandomoptionnametable.lub": {
       "source_client": "kRO",
       "source_file": "data/luafiles514/lua files/datainfo/addrandomoptionnametable.lub",
-      "modified_at": "2026-10-12T22:40:25.105317+00:00",
-      "sha256": "ea570d19467999644893f1db454f8b5272625ad4b031e5784584e928d98928dd",
+      "modified_at": "2026-10-13T16:18:52.405222+00:00",
+      "sha256": "c9bb6a43cfa4b838021962c1e9eccac50e2e7e468520999cb9dceb0b9b22679a",
       "deferred_ids": [],
       "approved_wording_without_server_definition_ids": [
         204,
@@ -398,23 +389,23 @@
     "src/data/ba_frostjoke.txt": {
       "source_client": "kRO",
       "source_file": "data/ba_frostjoke.txt",
-      "source_decoding": "docs/SKILL_SHOUTS.md#source-text-decoding",
-      "modified_at": "2026-10-12T23:03:04.598178+00:00",
-      "sha256": "c7f45281dcbe7f24f4faf579d030cd2ecdf9710b4cb5b5b4a0ce7d4131250454"
+      "source_decoding": "docs/files/skill_shouts.md#source-text-decoding",
+      "modified_at": "2026-10-13T16:18:52.405410+00:00",
+      "sha256": "1673d386a873b71ad7ac0fe6b27df8910e0419cb7de2bacdcf4410f67e85e027"
     },
     "src/data/dc_scream.txt": {
       "source_client": "kRO",
       "source_file": "data/dc_scream.txt",
-      "source_decoding": "docs/SKILL_SHOUTS.md#source-text-decoding",
-      "modified_at": "2026-10-12T23:03:04.598762+00:00",
-      "sha256": "e6457c51eb3aab1cb4ee7e143ee064e431fd07be3a72edcd176481db12baa035"
+      "source_decoding": "docs/files/skill_shouts.md#source-text-decoding",
+      "modified_at": "2026-10-13T16:18:52.422497+00:00",
+      "sha256": "05ccddb9b9251f39ff79d608dd9134398d1d8f5d23b48f5f3e0dade13e396010"
     },
     "src/data/pettalktable.xml": {
       "source_client": "kRO",
       "source_file": "data/pettalktable.xml",
-      "source_decoding": "docs/PET_DIALOGUE.md#source-text-decoding",
-      "modified_at": "2026-10-13T11:43:44.650063+00:00",
-      "sha256": "d68ca99422537220461fb69e7d0eba49ebc4f6fe151ec15f0b4e0b61dcc3337e",
+      "source_decoding": "docs/files/pet_dialogue.md#source-text-decoding",
+      "modified_at": "2026-10-13T16:18:52.421583+00:00",
+      "sha256": "fee80d3b7e4aba55ed83b9d09dd04c79b3ca1e9bf2f2430702be09008893dbde",
       "deferred_records": [],
       "wording_reviews": [
         {
@@ -464,8 +455,8 @@
     "src/System/achievement_list.lub": {
       "source_client": "kRO",
       "source_file": "System/achievement_list.lub",
-      "modified_at": "2026-10-13T13:13:48.221009+00:00",
-      "sha256": "a420f583675c82c26499ef559d26d160bfaffefaa6da7906f237a4ca70e7997b",
+      "modified_at": "2026-10-13T16:18:52.404167+00:00",
+      "sha256": "249e1f12ba6252da21880d5d4cfd69993f39dd6c238b0bc3ccbe549c4771d41a",
       "deferred_records": [
         "achievement_tbl[200006].title",
         "achievement_tbl[200006].content.summary",
@@ -527,6 +518,13 @@
           "intended_target": 129018
         }
       ]
+    },
+    "src/data/cardpostfixnametable.txt": {
+      "source_client": "kRO",
+      "source_file": "data/cardpostfixnametable.txt",
+      "modified_at": "2026-10-13T17:08:57.821727Z",
+      "sha256": "56d699d0cc339de54f4c1d12a1cb41d06ee110830e25e5e2115508b029240982",
+      "placement_notes": "444 suffix IDs: preserve surviving kRO IDs in source order, remove English prefixes and append English suffix IDs in name-table order. Preserve 4495 and 4496 without inventing labels."
     }
   },
   "mod_version": "0.0.17",
@@ -752,7 +750,8 @@
         },
         "Translation/Renewal/data/cardprefixnametable.txt": {
           "size_bytes": 28956,
-          "sha256": "13bf9e9266a0e00f22dc89d1d8179efcf186c6c88fb53f968598980cac5191ea"
+          "sha256": "13bf9e9266a0e00f22dc89d1d8179efcf186c6c88fb53f968598980cac5191ea",
+          "commit": "f7d270ec706622a8e0700e5e564d5fdbc3bcf3f5"
         },
         "Translation/Renewal/data/luafiles514/lua files/datainfo/addrandomoptionnametable.lub": {
           "size_bytes": 19204,

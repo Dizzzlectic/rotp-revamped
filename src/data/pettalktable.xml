@@ -86,7 +86,7 @@
 			<connect>	My dear Dad's here! I'm hungry, Dad! ^^	</connect>
 			<levelup>	Dad! Congratulations!	</levelup>
 			<levelup>	Now that you've leveled up, you'll feed me, right? 	</levelup>
-			<levelup>	Wooooow! +_+ :) Feed me and it'll be twice as happy!	</levelup>
+			<levelup>	Wooooow! +_+ :) Feed me and I'll be twice as happy!	</levelup>
 			<levelup>	Yaaay! Congrats, Dad!	</levelup>
 			<levelup>	Let's eat out to celebrate your level! I'm hungry!	</levelup>
 			<perfor_1>	Flex, flex! Scary, huh?	</perfor_1>
@@ -563,7 +563,7 @@
 		<noting>
 			<feeding>	Yummy! Thank you!	</feeding>
 			<feeding>	Thanks for the food! 	</feeding>
-			<hunting>	Monsters! Items! Let's kill lots and make zeny!	</hunting>
+			<hunting>	Monsters! Items! Let's kill lots and make Zeny!	</hunting>
 			<hunting>	Hurry, hurry! Kill it and move to the next one! 	</hunting>
 			<danger>	Danger, danger! Watch your HP while you hunt!!	</danger>
 			<danger>	Quick potion use will keep you alive! 	</danger>
@@ -622,7 +622,7 @@
 			<dead>	I was about to give you some carrots! How could you die...? Waaaah... Get up!	</dead>
 			<dead>	Somebody save my owner!! 	</dead>
 			<stand>	Just because my tummy's round, I don't look like a giant furball, right?	</stand>
-			<stand>	Still, my fur has lots of uses. Hey! Put those scissors down! Just because you're short on zeny...!	</stand>
+			<stand>	Still, my fur has lots of uses. Hey! Put those scissors down! Just because you're short on Zeny...!	</stand>
 			<stand>	What are you standing there for?! Hurry, let's go!! 	</stand>
 			<connect>	Owner logged in... Feeding failed. Feeding will fail... Feeding must fail...	</connect>
 			<connect>	You're not feeding me all at once just because logging in regularly to feed me is a bother, are you?!	</connect>
@@ -1041,7 +1041,7 @@
 		<so_full>
 			<feeding>	Good grief, been picking up steel lately? My belly's gonna burst!	</feeding>
 			<feeding>	Ugh, I'm full! So full I'm gonna burst!!	</feeding>
-			<feeding>	Stop feeding me! I'm dying of fullness here... -_- Grrr!	</feeding>
+			<feeding>	Stop feeding me! I'm so full I'm dying here... -_- Grrr!	</feeding>
 			<hunting>	Get it, get it! Hehehe! I can feel the steel!	</hunting>
 			<hunting>	Hey, don't show off fighting weak monsters! Grr!	</hunting>
 			<danger>	Gasp! Hey, hey, watch out!	</danger>
@@ -1184,7 +1184,7 @@
 			<stand>	Let's take it easy... However you live, you've only got one lifetime. 	</stand>
 			<connect>	You're here! I've been waiting. I wonder what'll happen around you today!	</connect>
 			<levelup>	Oh ho... Is that an angel? Haven't seen one in a while.	</levelup>
-			<levelup>	Oh... Congratulations! To celebrate, here's a little information. We're fond of a Damascus you can put something into.	</levelup>
+			<levelup>	Oh... Congratulations! To celebrate, here's a little information. We're fond of slotted Damascus daggers.	</levelup>
 			<levelup>	Ooh! Did my sweetie level up? :) Congraaats! :) ...Does that way of talking suit me?	</levelup>
 			<perfor_1>	I sense something!... Gah!! Here it comes!	</perfor_1>
 			<perfor_1>	Soldier! Prepare for battle! Prepare for battle!	</perfor_1>
@@ -5018,7 +5018,7 @@
 			<stand> Unripe green apples are the best! That crunchy texture is to die for!  </stand>
 			<stand> Spiders are our greatest enemy. They got our Goblin Hero, Mr. Green Goblin... :'( </stand>
 			<stand> This smiling mask makes people lower their guard. Great for stabbing them in the back. Hehe.  </stand>
-			<stand> Time is zeny, friend!  </stand>
+			<stand> Time is Zeny, friend!  </stand>
 			<connect> Hehe. In the end, I'm the only one who'll play with you, right? </connect>
 			<connect> Well, playing with me beats sleeping, doesn't it? </connect>
 			<connect> Welcome back. I was just talking about you. Hehe. </connect>
@@ -5049,7 +5049,7 @@
 			<stand> I am Sword Goblin, leader of the goblins. Esquire!  </stand>
 			<stand> This smiling mask makes people lower their guard. Great for stabbing them in the back. Hehe.  </stand>
 			<stand> Spiders are our greatest enemy. They got our Goblin Hero, Mr. Green Goblin... :'( </stand>
-			<stand> Time is zeny, friend!  </stand>
+			<stand> Time is Zeny, friend!  </stand>
 			<stand> Remember, what I'm wearing isn't a skirt!  </stand>
 			<connect> Hehe. In the end, I'm the only one who'll play with you, right? </connect>
 			<connect> Well, playing with me beats sleeping, doesn't it? </connect>
@@ -5075,7 +5075,7 @@
 			<dead> Here, today, I've learned that my friend's life is an important part of my own... Huh? You want to go to town? </dead>
 			<dead> Try doing a little better next time!  </dead>
 			<dead> There'll be plenty more chances. There are still more single people in the world... </dead>
-			<stand> Time is zeny, friend!  </stand>
+			<stand> Time is Zeny, friend!  </stand>
 			<stand> I'll do lots of good deeds and become a Goblin Hero.  </stand>
 			<stand> Cowards... Come and try taking me away...  </stand>
 			<stand> Spiders are our greatest enemy. They got our Goblin Hero, Mr. Green Goblin... :'( </stand>
@@ -5165,7 +5165,7 @@
 			<stand> Unripe green apples are the best! That crunchy texture is to die for!  </stand>
 			<stand> Spiders are our greatest enemy. They got our Goblin Hero, Mr. Green Goblin... :'( </stand>
 			<stand> This smiling mask makes people lower their guard. Great for stabbing them in the back. Hehe.  </stand>
-			<stand> Time is zeny, friend!  </stand>
+			<stand> Time is Zeny, friend!  </stand>
 			<connect> Hehe. In the end, I'm the only one who'll play with you, right? </connect>
 			<connect> Well, playing with me beats sleeping, doesn't it? </connect>
 			<connect> Welcome back. I was just talking about you. Hehe. </connect>
@@ -5194,7 +5194,7 @@
 			<stand> I am Flail Goblin, leader of the goblins. Esquire!  </stand>
 			<stand> This smiling mask makes people lower their guard. Great for stabbing them in the back. Hehe.  </stand>
 			<stand> Spiders are our greatest enemy. They got our Goblin Hero, Mr. Green Goblin... :'( </stand>
-			<stand> Time is zeny, friend!  </stand>
+			<stand> Time is Zeny, friend!  </stand>
 			<stand> Remember, what I'm wearing isn't a skirt!  </stand>
 			<connect> Hehe. In the end, I'm the only one who'll play with you, right? </connect>
 			<connect> Well, playing with me beats sleeping, doesn't it? </connect>
@@ -5218,7 +5218,7 @@
 			<dead> Here, today, I've learned that my friend's life is an important part of my own... Huh? You want to go to town? </dead>
 			<dead> Try doing a little better next time!  </dead>
 			<dead> There'll be plenty more chances. There are still more single people in the world... </dead>
-			<stand> Time is zeny, friend!  </stand>
+			<stand> Time is Zeny, friend!  </stand>
 			<stand> I'll do lots of good deeds and become a Goblin Hero.  </stand>
 			<stand> Cowards... Come and try taking me away...  </stand>
 			<stand> Spiders are our greatest enemy. They got our Goblin Hero, Mr. Green Goblin... :'( </stand>
@@ -5306,7 +5306,7 @@
 			<stand> Unripe green apples are the best! That crunch is to die for!  </stand>
 			<stand> Spiders are our greatest enemy. They got our Goblin Hero, the Green Goblin... :( </stand>
 			<stand> This expressionless mask is perfect for keeping my cool!  </stand>
-			<stand> Time is zeny, friend!  </stand>
+			<stand> Time is Zeny, friend!  </stand>
 			<connect> Hehehe. I'm the only one who'll play with you in the end, huh? </connect>
 			<connect> Playing with me beats sleeping, doesn't it? </connect>
 			<connect> Welcome back. I was just talking about you. Hehehe. </connect>
@@ -5335,7 +5335,7 @@
 			<stand> I am Hammer Goblin, back from hell, Esquire!  </stand>
 			<stand> This expressionless mask is perfect for keeping my cool!  </stand>
 			<stand> Spiders are our greatest enemy. They got our Goblin Hero, the Green Goblin... :( </stand>
-			<stand> Time is zeny, friend!  </stand>
+			<stand> Time is Zeny, friend!  </stand>
 			<stand> Remember, this isn't a skirt I'm wearing!  </stand>
 			<connect> Hehehe. I'm the only one who'll play with you in the end, huh? </connect>
 			<connect> Playing with me beats sleeping, doesn't it? </connect>
@@ -5359,7 +5359,7 @@
 			<dead> Here, I've learned that my friend's life is an important part of my own... Huh? We're going to town? </dead>
 			<dead> Try a little harder next time!  </dead>
 			<dead> You'll have plenty more chances. There are still more single people in the world... </dead>
-			<stand> Time is zeny, friend!  </stand>
+			<stand> Time is Zeny, friend!  </stand>
 			<stand> I'll do lots of good deeds and become a Goblin Hero.  </stand>
 			<stand> Cowards... Come and take me away, then...  </stand>
 			<stand> Spiders are our greatest enemy. They got our Goblin Hero, the Green Goblin... :( </stand>
@@ -8562,7 +8562,7 @@
 		<dead>	Intimacy drops when you die, when you overfeed a pet, or when you leave it hungry.	</dead>
 		<stand>	To feed me, right-click me and choose Feed Pet. I only drink Apple Juice.	</stand>
 		<stand>	The only way to raise intimacy is to feed your pet. But feeding a full pet lowers it instead.	</stand>
-		<stand>	Intimacy rises through Awkward, Shy, Neutral, Cordial, and Loyal.	</stand>
+		<stand>	Intimacy rises through Distant, Awkward, Normal, Friendly, and Loyal.	</stand>
 		<stand>	Loyal pets give their masters stat bonuses. They can evolve too.	</stand>
 		<stand>	I can't evolve... I'm just a guide.	</stand>
 		<stand>	A Loyal Poring can evolve into Mastering. A Loyal Mastering can then evolve into Angeling.	</stand>
@@ -8577,8 +8577,8 @@
 		<perfor_s>	Some monsters don't perform. They're reserved, but please love them all the same.	</perfor_s>
 	</bit_hungry>			
 	<noting>			
-		<feeding>	Feeding a pet at Neutral fullness raises intimacy too, but less than feeding it when hungry.	</feeding>
-		<feeding>	Feeding regularly whenever fullness returns to Neutral is the fastest way to become close. It takes a lot of food, though...	</feeding>
+		<feeding>	Feeding a pet when its hunger status is Normal raises intimacy too, but less than feeding it when hungry.	</feeding>
+		<feeding>	Feeding regularly whenever its hunger status returns to Normal is the fastest way to become close. It takes a lot of food, though...	</feeding>
 		<hunting>	You can tame Poporing with Bitter Herb. Green Plants sometimes drop it.	</hunting>
 		<hunting>	A Desert Wolf Baby likes Well-Dried Bone. Pirate Skeletons sometimes drop those.	</hunting>
 		<danger>	Careful! If you die, our intimacy will drop too.	</danger>
@@ -8590,7 +8590,7 @@
 		<stand>	My original name is Little Poring, but you can give me a new nickname if you like. 	</stand>
 		<stand>	The Evolve option appears when intimacy reaches Loyal. I can't evolve, though, since I'm just a guide... 	</stand>
 		<stand>	Return me to my egg and I'll go into the Equipment tab of your inventory. 	</stand>
-		<stand>	You need a Pet Incubator to hatch a pet. They're sold in towns, but cost a whole 10,000 zeny.	</stand>
+		<stand>	You need a Pet Incubator to hatch a pet. They're sold in towns, but cost a whole 10,000 Zeny.	</stand>
 		<stand>	After returning me to my egg, you can give me to another master. My name and intimacy will stay the same.	</stand>
 		<connect>	Welcome, Master. I'm Little Poring, here to teach you about pets.	</connect>
 		<connect>	Watch my fullness carefully. Intimacy gradually drops when I'm hungry.	</connect>
@@ -8613,7 +8613,7 @@
 		<stand>	Please don't feed a full pet. It lowers intimacy instead.	</stand>
 		<stand>	Pets won't speak unless their intimacy is Loyal. I'm an exception because I'm a guide!	</stand>
 		<stand>	A pet with low intimacy may leave its master... Be careful. I won't leave, since I'm a guide.	</stand>
-		<stand>	An Awkward pet doesn't look very pleased when you feed it. But it's grateful inside.	</stand>
+		<stand>	A Distant pet doesn't look very pleased when you feed it. But it's grateful inside.	</stand>
 		<stand>	Many pets like Pet Food. Make sure to feed them when they're hungry.	</stand>
 		<stand>	Pet Groomers in towns sell pet accessories, Pet Food, and Pet Incubators.	</stand>
 		<stand>	I wish I could evolve into Poring too... A level up from being a rookie!	</stand>
@@ -8640,7 +8640,7 @@
 		<stand>	Evolved pets can be fed automatically! But don't leave them unattended and forget about them. Running out of food means trouble.	</stand>
 		<stand>	Evolved pets lose intimacy slowly. But raising it is harder too.	</stand>
 		<stand>	Some pets can evolve into two different kinds of pet. The materials depend on which monster you choose.	</stand>
-		<stand>	After evolving, a pet is Awkward and hungry. Change must always be hard...	</stand>
+		<stand>	After evolving, a pet is Distant and hungry. Change must always be hard...	</stand>
 		<connect>	Welcome, Master. I'm Little Poring, here to teach you about pets.	</connect>
 		<connect>	Watch my fullness carefully. Intimacy gradually drops when I'm hungry.	</connect>
 		<levelup>	Pets don't level up, but with high intimacy, we can help you with our abilities.	</levelup>
@@ -11544,7 +11544,7 @@
 	<stand>Shh! Listen. I can hear your heart. Thump-thump. It's like a song!</stand>
 	<connect>I've been waiting for you!</connect>
 	<connect>Ta-da! It's another lovely day!</connect>
-	<levelup>I'd give you a present to celebrate, but I haven't got anything. Accept the thought instead!</levelup>
+	<levelup>I'd give you a present to celebrate, but I haven't got anything. It's the thought that counts!</levelup>
 	<levelup>So cool! So strong!</levelup>
 	<perfor_1>If I do this and this, I can fly!</perfor_1>
 	<perfor_1>Flapping your wings cools you down when it's hot!</perfor_1>

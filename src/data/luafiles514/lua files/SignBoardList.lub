@@ -421,7 +421,7 @@ SignBoardList = {
     { "dewata", 229, 49, 10, 3, "\192\175\192\250\192\206\197\205\198\228\192\204\189\186\\item\\ship_ticket.bmp", "  To Alberta", "#0x00FFFFFF" },
     { "alberta", 246, 51, 10, 3, "\192\175\192\250\192\206\197\205\198\228\192\204\189\186\\item\\ship_ticket.bmp", "  To Moscovia", "#0x00FFFFFF" },
     { "moscovia", 166, 53, 10, 3, "\192\175\192\250\192\206\197\205\198\228\192\204\189\186\\item\\ship_ticket.bmp", "  To Alberta", "#0x00FFFFFF" },
-    { "alberta", 240, 103, 10, 3, "\192\175\192\250\192\206\197\205\198\228\192\204\189\186\\item\\ship_ticket.bmp", "  To Rock Ridge", "#0x00FFFFFF" },
+    { "alberta", 240, 103, 10, 3, "\192\175\192\250\192\206\197\205\198\228\192\204\189\186\\item\\ship_ticket.bmp", "  To Rockridge", "#0x00FFFFFF" },
     { "harboro1", 60, 215, 10, 3, "\192\175\192\250\192\206\197\205\198\228\192\204\189\186\\item\\ship_ticket.bmp", "  To Alberta", "#0x00FFFFFF" },
     { "alberta", 244, 118, 10, 3, "\192\175\192\250\192\206\197\205\198\228\192\204\189\186\\item\\ship_ticket.bmp", "  To Turtle Island", "#0x00FFFFFF" },
     { "tur_dun01", 165, 29, 10, 3, "\192\175\192\250\192\206\197\205\198\228\192\204\189\186\\item\\ship_ticket.bmp", "  To Alberta", "#0x00FFFFFF" },

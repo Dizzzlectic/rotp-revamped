@@ -5483,7 +5483,7 @@ achievement_tbl = {
     [200011] = {
         UI_Type = 0,
         content = {
-            details = "Become a Rune Knight, Mechanic, Guillotine Cross, Warlock, Arch Bishop or Ranger.",
+            details = "Become a Rune Knight, Mechanic, Guillotine Cross, Warlock, Archbishop or Ranger.",
             summary = "Change to a third job class in the 3-1 branch.",
         },
         group = "JOB_CHANGE",
@@ -5504,7 +5504,7 @@ achievement_tbl = {
     [200012] = {
         UI_Type = 0,
         content = {
-            details = "After rebirth, become a Rune Knight, Mechanic, Guillotine Cross, Warlock, Arch Bishop or Ranger.",
+            details = "After rebirth, become a Rune Knight, Mechanic, Guillotine Cross, Warlock, Archbishop or Ranger.",
             summary = "Change to a third job class in the 3-1 branch after rebirth.",
         },
         group = "JOB_CHANGE",
