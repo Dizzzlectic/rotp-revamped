@@ -29,9 +29,10 @@ damage taken.”
 [Gravity's explanation](https://ro.gnjoy.com/news/devnote/View.asp?category=1&curpage=1&seq=4194130)
 excludes certain special damage formulas from the outgoing bonus. iRO's ID 255
 is its `END` marker, so matching that ID is not a wording reference. The
-defensive option's exact formula and exclusions remain unverified. The reviewed
-rAthena source has no definitions for these options and no matching non-critical
-damage reduction bonus.
+reduction wording follows the paired kRO label; its exact formula and exclusions
+remain inferred because Gravity's explanation documents the outgoing effect.
+Pending server support is tracked in the
+[discrepancy tracker](../../../../docs/RATHENA_DISCREPANCIES.md#equipment-random-options).
 
 Options 117–126 use iRO's division expression, such as
 `Critical + (%d / 10) against Formless monsters`. rAthena divides the stored
