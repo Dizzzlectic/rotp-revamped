@@ -5567,7 +5567,7 @@ achievement_tbl = {
     [200015] = {
         UI_Type = 0,
         content = {
-            details = "태권, 건슬링거, 슈퍼노비스, 닌자, 드루이드 중 하나로 전직한다.",
+            details = "Become a Taekwon Boy, Gunslinger, Super Novice, Ninja or Druid.",
             summary = "Change to an expanded job class.",
         },
         group = "JOB_CHANGE",
@@ -5587,7 +5587,7 @@ achievement_tbl = {
     [200016] = {
         UI_Type = 0,
         content = {
-            details = "소울링커, 권성, 리벨리온, 오보로, 카게로우, 카르노스 중 하나로 전직한다.",
+            details = "Become a Soul Linker, Star Gladiator, Rebellion, Oboro, Kagerou or Carnos.",
             summary = "Change to a second expanded job class.",
         },
         group = "JOB_CHANGE",

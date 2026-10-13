@@ -22,6 +22,9 @@ Achievement titles retain their humor, while requirements use direct objective
 phrases such as “Reach Base Level 100” and “Successfully refine a level 2 weapon
 to +7.” Linked objectives use the translated title of the target achievement.
 
+Druid and Carnos remain in the expanded-job descriptions supplied by newer kRO
+records, although the supported server does not yet implement those classes.
+
 ## File format and client behavior
 
 The client loads `achievement_tbl` when achievements are enabled.

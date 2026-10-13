@@ -331,15 +331,13 @@
     "src/System/achievement_list.lub": {
       "source_client": "kRO",
       "source_file": "System/achievement_list.lub",
-      "modified_at": "2026-10-13T16:18:52.404167+00:00",
-      "sha256": "249e1f12ba6252da21880d5d4cfd69993f39dd6c238b0bc3ccbe549c4771d41a",
+      "modified_at": "2026-10-13T23:08:24.671082+00:00",
+      "sha256": "3561006b0d77a16b1682b3630bb52fee40b1e37184fff04ae3f3b2cac404edb8",
       "deferred_records": [
         "achievement_tbl[200006].title",
         "achievement_tbl[200006].content.summary",
         "achievement_tbl[200006].content.details",
         "achievement_tbl[200006].resource.1.text",
-        "achievement_tbl[200015].content.details",
-        "achievement_tbl[200016].content.details",
         "achievement_tbl[120131].title",
         "achievement_tbl[120131].content.details",
         "achievement_tbl[120131].resource.1.text",
