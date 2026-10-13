@@ -354,12 +354,6 @@
       "modified_at": "2026-10-13T16:18:52.405222+00:00",
       "sha256": "c9bb6a43cfa4b838021962c1e9eccac50e2e7e468520999cb9dceb0b9b22679a",
       "deferred_ids": [],
-      "approved_wording_without_server_definition_ids": [
-        204,
-        205,
-        255,
-        256
-      ],
       "numeric_display": {
         "option_ids": [
           117,
@@ -377,11 +371,7 @@
         "arithmetic": "rAthena integer division",
         "client_display": "Literal division expression; arithmetic is not evaluated",
         "reference_client": "iRO"
-      },
-      "approved_wording_pending_server_fix_ids": [
-        149,
-        150
-      ]
+      }
     },
     "src/data/ba_frostjoke.txt": {
       "source_client": "kRO",

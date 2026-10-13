@@ -20,19 +20,14 @@ notes.
 
 Options 149–150 and 160–162 explicitly describe **physical damage** from the
 specified enemy class or size. Options 204–205 use “Ranged weapon damage” and
-“Ranged weapon damage taken,” meaning physical weapon attacks. These names do
-not establish equivalence with the general ranged bonuses in options 166–167.
-The reviewed rAthena source has no corresponding definitions for 204–205.
+“Ranged weapon damage taken,” meaning physical weapon attacks.
 
 Options 255–256 use “Non-critical physical damage” and “Non-critical physical
 damage taken.”
 [Gravity's explanation](https://ro.gnjoy.com/news/devnote/View.asp?category=1&curpage=1&seq=4194130)
 excludes certain special damage formulas from the outgoing bonus. iRO's ID 255
 is its `END` marker, so matching that ID is not a wording reference. The
-reduction wording follows the paired kRO label; its exact formula and exclusions
-remain inferred because Gravity's explanation documents the outgoing effect.
-Pending server support is tracked in the
-[discrepancy tracker](../../../../docs/RATHENA_DISCREPANCIES.md#equipment-random-options).
+reduction wording follows the paired kRO label.
 
 Options 117–126 use iRO's division expression, such as
 `Critical + (%d / 10) against Formless monsters`. rAthena divides the stored
@@ -43,6 +38,9 @@ while rAthena applies +1. Values not divisible by ten truncate on the server.
 Race resistance options 194–203 retain general resistance wording: rAthena's
 `cardfix_monster_physical` setting makes their reductions apply to monster magic
 as well as weapon attacks.
+
+Open server fixes are tracked in the
+[discrepancy tracker](../../../../docs/RATHENA_DISCREPANCIES.md#equipment-random-options).
 
 ## File format and client behavior
 

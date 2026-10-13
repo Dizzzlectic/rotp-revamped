@@ -296,7 +296,7 @@
         "total": 253,
         "completed": 253
       },
-      "notes": "Progress excludes the unchanged END sentinel. Options 117-126 use the approved iRO division expression for rAthena scaling; the client displays the expression literally. Options 204-205 and 255-256 use approved kRO wording; missing rAthena definitions remain recorded separately."
+      "notes": "Progress excludes the unchanged END sentinel. Options 117-126 use the approved iRO division expression for rAthena scaling; the client displays the expression literally."
     },
     {
       "source": {
