@@ -331,12 +331,8 @@
     "src/System/achievement_list.lub": {
       "source_client": "kRO",
       "source_file": "System/achievement_list.lub",
-      "modified_at": "2026-10-14T00:23:51.843424+00:00",
-      "sha256": "3d8fa4d127b427e0325f4ccf5be2362fc69ed858504ed49e78ebeeb2b1ed808c",
-      "deferred_records": [
-        "achievement_tbl[128039].resource.1.text",
-        "achievement_tbl[128043].resource.1.text"
-      ]
+      "modified_at": "2026-10-14T02:09:00.821669+00:00",
+      "sha256": "ca0fbaf038cd939157ed60f7b4e4c6237753bb02dc18694a092bb7bbccd1a67a"
     },
     "src/data/cardpostfixnametable.txt": {
       "source_client": "kRO",
@@ -345,7 +341,7 @@
       "sha256": "6e6607641229c0383a007ae5f8abc1629cfe90cdff1c9a92c59adb21fb3b868c"
     }
   },
-  "mod_version": "0.0.17",
+  "mod_version": "0.0.18",
   "implementation_sources": {
     "rAthena": {
       "commit": "8cd3493bb0fe2d716be8fb98eacb5d7a0b83a426",

@@ -81,7 +81,6 @@ would install the mod under the wrong name.
   coverage.
 - [sources.json](sources.json): reviewed source versions, hashes and
   file-specific source notes.
-- [review.csv](review.csv): pending wording decisions.
 - [Changelog](CHANGELOG.md): release history.
 - Development workspace
   [discrepancy tracker](../../docs/RATHENA_DISCREPANCIES.md): differences

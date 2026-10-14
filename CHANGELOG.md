@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.0.18
+
+- Complete the achievement wording review, including Ferlock objectives, and
+  correct the Manuk exploration shortcut.
+- Align card affixes with established English names, restore missing sealed-card
+  affixes, and use Fadhgridh consistently for the castle and card.
+- Resolve pet dialogue and random-option wording reviews, correct a duplicated
+  pet line, and use an ASCII crying emoticon in client messages.
+- Standardize file documentation and consolidate shared translation guidance.
+
 ## 0.0.17
 
 - Translate achievement titles, summaries, descriptions and objectives from kRO,

@@ -40,8 +40,8 @@ corrects the nonexistent source shortcut 120918 to 129018.
 The client loads `achievement_tbl` when achievements are enabled.
 
 The source is compiled Lua 5.1. The replacement is readable Lua source, encoded
-as CP949 without a BOM, with CRLF line endings. English text is ASCII; CP949
-preserves the fields held in Korean. Numeric IDs, counts, scores, rewards,
+as CP949 without a BOM, with CRLF line endings. English text is ASCII.
+Numeric IDs, counts, scores, rewards,
 category keys and display settings remain unchanged. Shortcuts retain their
 source values except for the Manuk correction above. The `main()`
 registration helper retains the source's callbacks and error handling.

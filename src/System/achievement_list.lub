@@ -4032,7 +4032,7 @@ achievement_tbl = {
         resource = {
             [1] = {
                 count = 1,
-                text = "Æç·Ï 1È¸ Ã³Ä¡",
+                text = "Defeat Ferlock once",
             },
         },
         reward = {},
@@ -4108,7 +4108,7 @@ achievement_tbl = {
         resource = {
             [1] = {
                 count = 50,
-                text = "Æç·Ï 50È¸ Ã³Ä¡",
+                text = "Defeat Ferlock 50 times",
             },
         },
         reward = {},

@@ -160,12 +160,12 @@
       "destination": "src/System/achievement_list.lub",
       "description": "Achievement names and descriptions",
       "client_support": "conditional",
-      "status": "in_progress",
+      "status": "complete",
       "progress": {
         "total": 361,
-        "completed": 359
+        "completed": 361
       },
-      "notes": "Counts achievement records whose display text is fully translated. Titles, summaries, details and objective labels are covered; 2 conflicting display fields across 2 IDs retain Korean pending review.csv. Scores, targets, rewards, category keys and display settings retain kRO values. The Manuk shortcut in 129019 corrects source ID 120918 to 129018. Requires achievements to be enabled."
+      "notes": "Counts achievement records whose display text is fully translated. Titles, summaries, details and objective labels are fully translated. Scores, targets, rewards, category keys and display settings retain kRO values. The Manuk shortcut in 129019 corrects source ID 120918 to 129018. Requires achievements to be enabled."
     },
     {
       "source": {
