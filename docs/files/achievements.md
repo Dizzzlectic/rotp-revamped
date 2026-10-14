@@ -25,6 +25,9 @@ to +7.” Linked objectives use the translated title of the target achievement.
 Druid and Carnos remain in the expanded-job descriptions supplied by newer kRO
 records, although the supported server does not yet implement those classes.
 
+For 220012 and 220013, the summaries and objective counts resolve the extra
+`만` in the Korean descriptions of the spending amounts.
+
 ## File format and client behavior
 
 The client loads `achievement_tbl` when achievements are enabled.

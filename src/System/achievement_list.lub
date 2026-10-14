@@ -3777,7 +3777,7 @@ achievement_tbl = {
         UI_Type = 1,
         content = {
             details = "Complete the instance dungeon",
-            summary = "풍속성 페이스웜 퀸 처치",
+            summary = "Defeat the Wind Faceworm Queen",
         },
         group = "BATTLE",
         major = 5,
@@ -3785,12 +3785,12 @@ achievement_tbl = {
         resource = {
             [1] = {
                 count = 1,
-                text = "풍속성 페이스웜 퀸 1회 처치",
+                text = "Defeat the Wind Faceworm Queen once",
             },
         },
         reward = {},
         score = 10,
-        title = "기분좋은 바람",
+        title = "A Pleasant Breeze",
     },
     [128027] = {
         UI_Type = 1,
@@ -3815,7 +3815,7 @@ achievement_tbl = {
         UI_Type = 1,
         content = {
             details = "Complete the instance dungeon",
-            summary = "지속성 페이스웜 퀸 처치",
+            summary = "Defeat the Earth Faceworm Queen",
         },
         group = "BATTLE",
         major = 5,
@@ -3823,12 +3823,12 @@ achievement_tbl = {
         resource = {
             [1] = {
                 count = 1,
-                text = "지속성 페이스웜 퀸 1회 처치",
+                text = "Defeat the Earth Faceworm Queen once",
             },
         },
         reward = {},
         score = 10,
-        title = "포근한 대지",
+        title = "The Comfort of the Earth",
     },
     [128029] = {
         UI_Type = 1,
@@ -4051,7 +4051,7 @@ achievement_tbl = {
         resource = {
             [1] = {
                 count = 10,
-                text = "펠록 10회 처치",
+                text = "Defeat Ferlock 10 times",
             },
         },
         reward = {},
@@ -6168,8 +6168,8 @@ achievement_tbl = {
     [220010] = {
         UI_Type = 1,
         content = {
-            details = "돈은 돌고 도는 법. 다른 플레이어의 노점에서 아이템을 100만 제니 만큼 구매한다. ",
-            summary = "노점을 통해 100만 제니 이상 소비한다",
+            details = "Money is meant to circulate. Spend at least 1,000,000 Zeny at player vending shops.",
+            summary = "Spend at least 1,000,000 Zeny at player vending shops.",
         },
         group = "SPEND_ZENY",
         major = 1,
@@ -6177,7 +6177,7 @@ achievement_tbl = {
         resource = {
             [1] = {
                 count = 1000000,
-                text = "노점을 통해 100만 제니 이상 소비",
+                text = "Spend at least 1,000,000 Zeny at player vending shops",
             },
             count = 500000000,
         },
@@ -6188,8 +6188,8 @@ achievement_tbl = {
     [220011] = {
         UI_Type = 1,
         content = {
-            details = "돈은 돌고 도는 법. 다른 플레이어의 노점에서 아이템을 500만 제니 만큼 구매한다. ",
-            summary = "노점을 통해 500만 제니 이상 소비한다",
+            details = "Money is meant to circulate. Spend at least 5,000,000 Zeny at player vending shops.",
+            summary = "Spend at least 5,000,000 Zeny at player vending shops.",
         },
         group = "SPEND_ZENY",
         major = 1,
@@ -6197,7 +6197,7 @@ achievement_tbl = {
         resource = {
             [1] = {
                 count = 5000000,
-                text = "노점을 통해 500만 제니 이상 소비",
+                text = "Spend at least 5,000,000 Zeny at player vending shops",
             },
             count = 500000000,
         },
@@ -6208,8 +6208,8 @@ achievement_tbl = {
     [220012] = {
         UI_Type = 1,
         content = {
-            details = "돈은 돌고 도는 법. 다른 플레이어의 노점에서 아이템을 1억만 제니 만큼 구매한다. ",
-            summary = "노점을 통해 1억 제니 이상 소비한다",
+            details = "Money is meant to circulate. Spend at least 100,000,000 Zeny at player vending shops.",
+            summary = "Spend at least 100,000,000 Zeny at player vending shops.",
         },
         group = "SPEND_ZENY",
         major = 1,
@@ -6217,7 +6217,7 @@ achievement_tbl = {
         resource = {
             [1] = {
                 count = 100000000,
-                text = "노점을 통해 1억 제니 이상 소비",
+                text = "Spend at least 100,000,000 Zeny at player vending shops",
             },
             count = 500000000,
         },
@@ -6228,8 +6228,8 @@ achievement_tbl = {
     [220013] = {
         UI_Type = 1,
         content = {
-            details = "돈은 돌고 도는 법. 다른 플레이어의 노점에서 아이템을 5억만 제니 만큼 구매한다. ",
-            summary = "노점을 통해 5억 제니 이상 소비한다",
+            details = "Money is meant to circulate. Spend at least 500,000,000 Zeny at player vending shops.",
+            summary = "Spend at least 500,000,000 Zeny at player vending shops.",
         },
         group = "SPEND_ZENY",
         major = 1,
@@ -6237,7 +6237,7 @@ achievement_tbl = {
         resource = {
             [1] = {
                 count = 500000000,
-                text = "노점을 통해 5억 제니 이상 소비",
+                text = "Spend at least 500,000,000 Zeny at player vending shops",
             },
         },
         reward = {},
