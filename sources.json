@@ -336,14 +336,6 @@
       "deferred_records": [
         "achievement_tbl[128039].resource.1.text",
         "achievement_tbl[128043].resource.1.text"
-      ],
-      "preserved_metadata_issues": [
-        {
-          "id": 200024,
-          "path": "reward.buff",
-          "value": 611,
-          "server_icon": 305
-        }
       ]
     },
     "src/data/cardpostfixnametable.txt": {
