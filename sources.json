@@ -331,23 +331,11 @@
     "src/System/achievement_list.lub": {
       "source_client": "kRO",
       "source_file": "System/achievement_list.lub",
-      "modified_at": "2026-10-13T23:57:49.069436+00:00",
-      "sha256": "99a9dbea270e4a95e34327b74378ec83658980fffc15120ea6c38679f347a913",
+      "modified_at": "2026-10-14T00:23:51.843424+00:00",
+      "sha256": "3d8fa4d127b427e0325f4ccf5be2362fc69ed858504ed49e78ebeeb2b1ed808c",
       "deferred_records": [
-        "achievement_tbl[220006].resource.1.text",
-        "achievement_tbl[128017].resource.1.text",
-        "achievement_tbl[128018].resource.1.text",
-        "achievement_tbl[128019].resource.1.text",
-        "achievement_tbl[128020].resource.1.text",
-        "achievement_tbl[128021].resource.1.text",
-        "achievement_tbl[128032].resource.1.text",
-        "achievement_tbl[128033].resource.1.text",
-        "achievement_tbl[128034].resource.1.text",
         "achievement_tbl[128039].resource.1.text",
-        "achievement_tbl[128043].resource.1.text",
-        "achievement_tbl[129021].resource.1.text",
-        "achievement_tbl[110001].content.details",
-        "achievement_tbl[130000].content.details"
+        "achievement_tbl[128043].resource.1.text"
       ],
       "preserved_metadata_issues": [
         {
@@ -355,12 +343,6 @@
           "path": "reward.buff",
           "value": 611,
           "server_icon": 305
-        },
-        {
-          "id": 129019,
-          "path": "resource.2.shortcut",
-          "value": 120918,
-          "intended_target": 129018
         }
       ]
     },

@@ -20,7 +20,7 @@ achievement_tbl = {
     [110001] = {
         UI_Type = 0,
         content = {
-            details = "위그너가에 몰려든 극성 팬들을 모두 만나 보자",
+            details = "Meet all the die-hard fans gathered at the Wigner residence",
             summary = "Get a glimpse into the lives of die-hard fans",
         },
         group = "SEE",
@@ -3614,7 +3614,7 @@ achievement_tbl = {
         resource = {
             [1] = {
                 count = 1,
-                text = "절망의 신 모로크 1회 처치",
+                text = "Defeat Morocc, God of Despair once",
             },
         },
         reward = {},
@@ -3633,7 +3633,7 @@ achievement_tbl = {
         resource = {
             [1] = {
                 count = 10,
-                text = "절망의 신 모로크 10회 처치",
+                text = "Defeat Morocc, God of Despair 10 times",
             },
         },
         reward = {},
@@ -3652,7 +3652,7 @@ achievement_tbl = {
         resource = {
             [1] = {
                 count = 25,
-                text = "절망의 신 모로크 25회 처치",
+                text = "Defeat Morocc, God of Despair 25 times",
             },
         },
         reward = {},
@@ -3671,7 +3671,7 @@ achievement_tbl = {
         resource = {
             [1] = {
                 count = 50,
-                text = "절망의 신 모로크 50회 처치",
+                text = "Defeat Morocc, God of Despair 50 times",
             },
         },
         reward = {},
@@ -3690,7 +3690,7 @@ achievement_tbl = {
         resource = {
             [1] = {
                 count = 100,
-                text = "절망의 신 모로크 100회 처치",
+                text = "Defeat Morocc, God of Despair 100 times",
             },
         },
         reward = {},
@@ -3899,7 +3899,7 @@ achievement_tbl = {
         resource = {
             [1] = {
                 count = 1,
-                text = "암다라이스(상급) 1회 처치",
+                text = "Defeat Amdarais (Advanced) once",
             },
         },
         reward = {},
@@ -3918,7 +3918,7 @@ achievement_tbl = {
         resource = {
             [1] = {
                 count = 10,
-                text = "암다라이스(상급) 10회 처치",
+                text = "Defeat Amdarais (Advanced) 10 times",
             },
         },
         reward = {},
@@ -3937,7 +3937,7 @@ achievement_tbl = {
         resource = {
             [1] = {
                 count = 50,
-                text = "암다라이스(상급) 50회 처치",
+                text = "Defeat Amdarais (Advanced) 50 times",
             },
         },
         reward = {},
@@ -5059,7 +5059,7 @@ achievement_tbl = {
                 text = "Complete Lapine Explorer",
             },
             [2] = {
-                shortcut = 120918,
+                shortcut = 129018,
                 text = "Complete Explorer of Manuk",
             },
         },
@@ -5134,7 +5134,7 @@ achievement_tbl = {
         resource = {
             [1] = {
                 count = 100,
-                text = "도전 성공 횟수",
+                text = "Successful challenges",
             },
         },
         reward = {
@@ -5146,7 +5146,7 @@ achievement_tbl = {
     [130000] = {
         UI_Type = 0,
         content = {
-            details = "동쪽과 서쪽 별궁에 기거하는 일곱 왕가를 방문해 존재감을 드러내세요.",
+            details = "Make your presence known: visit the seven royal families in the east and west detached palaces.",
             summary = "Visit the seven royal families",
         },
         group = "CHATTING",
@@ -6096,7 +6096,7 @@ achievement_tbl = {
         minor = 2,
         resource = {
             [1] = {
-                text = "결혼에 성공",
+                text = "Get married",
             },
         },
         reward = {
