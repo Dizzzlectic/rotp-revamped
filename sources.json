@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-13T00:07:27.282618+00:00",
+  "captured_at": "2026-10-14T11:42:11.049242+00:00",
   "timestamp_meaning": "Filesystem last-modified times in UTC; these are not official patch release times.",
   "patch_id_meaning": "Unsigned 32-bit little-endian value in Patch.inf; identifies patch progress, not episode or protocol version.",
   "clients": {
@@ -111,7 +111,7 @@
           "size_bytes": 9731100,
           "sha256": "30a44a61a8704e0e56034b4646ea8b1215810f723e0316bff80a45ad6b162913"
         },
-        "data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/basic_interface/equipwin_bg.bmp": {
+        "data/texture/유저인터페이스/basic_interface/equipwin_bg.bmp": {
           "container": "data.grf",
           "modified_at": null,
           "size_bytes": 37124,
@@ -146,6 +146,18 @@
           "modified_at": null,
           "size_bytes": 709632,
           "sha256": "18d1337d2b39c80ba2c02acf524f5bf48bb5a5a370e59e49beec0c6ea42982cc"
+        },
+        "data/luafiles514/lua files/skillinfoz/skillinfolist.lub": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 612111,
+          "sha256": "baeb0d15436ed631f8e3143b52236889eec50ec527f6c42c0ae1ed3d786dfd8e"
+        },
+        "data/luafiles514/lua files/skillinfoz/skillid.lub": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 103423,
+          "sha256": "831c40717d00407f8fff6bc301e9f6f8626734f50b3db8c6e0d8a0f9fb3c5b24"
         }
       }
     },
@@ -247,6 +259,18 @@
           "modified_at": "2026-10-08T16:56:49.568799+00:00",
           "size_bytes": 140533,
           "sha256": "0f35eb4e738ad18afe457f3167a3cf097c4ae3340d179338c824e036d351fdcc"
+        },
+        "data/luafiles514/lua files/skillinfoz/skillinfolist.lub": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 546938,
+          "sha256": "bca474d220eda9da2c4b49128c1d74cdee46a39411995033310d31be83a44f90"
+        },
+        "data/texture/유저인터페이스/basic_interface/equipwin_bg.bmp": {
+          "container": "data.grf",
+          "modified_at": null,
+          "size_bytes": 126056,
+          "sha256": "265df315b07af7918f201239269f7d9278251506301903b022514d0ef9586040"
         }
       }
     }
@@ -273,8 +297,8 @@
     "src/data/msgstringtable.csv": {
       "source_client": "kRO",
       "source_file": "data/msgstringtable.csv",
-      "modified_at": "2026-10-13T20:02:01.411953Z",
-      "sha256": "dd5358704a85f3e795d6757e0cc82f54aaf63d2fb573f55168cea986ca078c7c"
+      "modified_at": "2026-10-15T14:40:27.727542Z",
+      "sha256": "bc3e112ed9b84ce9e6f7d0528c456ff8d80e9735ddc6243c4bb3e2014aeebadc"
     },
     "src/System/Towninfo.lub": {
       "source_client": "kRO",
@@ -339,9 +363,23 @@
       "source_file": "data/cardpostfixnametable.txt",
       "modified_at": "2026-10-13T22:18:40.373536+00:00",
       "sha256": "6e6607641229c0383a007ae5f8abc1629cfe90cdff1c9a92c59adb21fb3b868c"
+    },
+    "src/data/luafiles514/lua files/skillinfoz/skillinfolist.lub": {
+      "source_client": "kRO",
+      "source_file": "data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
+      "modified_at": "2026-10-14T11:40:30.588150+00:00",
+      "sha256": "7cf3d3c11068f963401aacf0ee3d8619ff5b15f40c5072da8177a7a603a6c8f6"
+    },
+    "src/data/texture/ui/basic_interface/equipwin_bg.bmp": {
+      "source_client": "kRO",
+      "source_file": "data/texture/유저인터페이스/basic_interface/equipwin_bg.bmp",
+      "modified_at": "2026-10-14T11:29:27.466582+00:00",
+      "sha256": "3fdfe70e124c16a47443f85a88d8426f74d38cac2924e0b66b22d27fb1d13b32",
+      "reference_client": "iRO",
+      "reference_file": "data/texture/유저인터페이스/basic_interface/equipwin_bg.bmp"
     }
   },
-  "mod_version": "0.0.18",
+  "mod_version": "0.0.19",
   "implementation_sources": {
     "rAthena": {
       "commit": "8cd3493bb0fe2d716be8fb98eacb5d7a0b83a426",
@@ -591,6 +629,16 @@
           "size_bytes": 149446,
           "sha256": "147e3900b550fc45c602a15f808867e04fa743df418bcb7d09eb97d2c51391c6",
           "commit": "f7d270ec706622a8e0700e5e564d5fdbc3bcf3f5"
+        },
+        "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub": {
+          "size_bytes": 436149,
+          "sha256": "d22aee519b4c5d3266ae3ef1300568ad895e1e67a09a5913eea7ac553a01bae4",
+          "commit": "f7d270ec706622a8e0700e5e564d5fdbc3bcf3f5"
+        },
+        "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillid.lub": {
+          "size_bytes": 48154,
+          "sha256": "20072f21bd2b2240eaded2a5e91d61365244183c100acd6dd3f3d780f25f62ba",
+          "commit": "f7d270ec706622a8e0700e5e564d5fdbc3bcf3f5"
         }
       }
     },
@@ -610,6 +658,11 @@
       "iRO_official_overview": "https://iro.ragnarokonline.com/news/updatedetail.aspx?id=291",
       "iRO_reference_list": "https://irowiki.org/wiki/Achievement_System",
       "jRO_system_guide": "https://ragnarokonline.gungho.jp/gameguide/system/records.html"
+    },
+    "skill_names": {
+      "kRO_2026_developer_note": "https://ro.gnjoy.com/news/devnote/View.asp?category=3&curpage=1&seq=4200579",
+      "kRO_2026_update_notice": "https://ro.gnjoy.com/news/notice/View.asp?BBSMode=10001&seq=8300",
+      "kRO_Yellow_Dragon_skill": "https://ro.gnjoy.com/guide/runemidgarts/skillview.asp?lineseq=8&skillid=6637"
     }
   },
   "path_meaning": "Client paths use kRO/ and iRO/ aliases; resolve these against local client installations."

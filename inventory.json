@@ -322,11 +322,12 @@
       "destination": "src/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
       "description": "Skill names",
       "client_support": "supported",
-      "status": "not_started",
+      "status": "complete",
       "progress": {
-        "total": null,
-        "completed": 0
-      }
+        "total": 1756,
+        "completed": 1756
+      },
+      "notes": "All 1,756 SkillName fields translated, including three retained ASCII labels. Resource names, record order and skill metadata preserve kRO values. Independent translation review complete."
     },
     {
       "source": {
@@ -381,15 +382,15 @@
         "path": "data/texture/\uc720\uc800\uc778\ud130\ud398\uc774\uc2a4/basic_interface/equipwin_bg.bmp",
         "container": "data.grf"
       },
-      "destination": null,
+      "destination": "src/data/texture/ui/basic_interface/equipwin_bg.bmp",
       "description": "Equipment slot labels printed in background artwork",
       "client_support": "supported",
-      "status": "not_started",
+      "status": "complete",
       "progress": {
-        "total": null,
-        "completed": 0
+        "total": 10,
+        "completed": 10
       },
-      "notes": "Labels are printed in the BMP rather than loaded from message strings. The source spells Accessory as accessary; this artwork is not yet replaced by the mod."
+      "notes": "Ten slot captions already use English. Corrected both accessory captions and added R/L markers from iRO within the original 280 \u00d7 130 kRO layout. Independent artwork review complete. Uses the ASCII texture/ui path alias for archive portability."
     }
   ]
 }

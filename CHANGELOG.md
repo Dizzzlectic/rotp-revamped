@@ -1,14 +1,22 @@
 # Changelog
 
+## 0.0.19
+
+- Translate all 1,756 skill names from kRO, preserving skill resources and
+  metadata.
+- Correct the equipment background's accessory captions and add R/L markers
+  using iRO lettering.
+- Capitalize the General Messages and Battle Messages labels and remove the
+  leading space from All on.
+
 ## 0.0.18
 
-- Complete the achievement wording review, including Ferlock objectives, and
+- Update achievement translations, including Ferlock objectives, and
   correct the Manuk exploration shortcut.
 - Align card affixes with established English names, restore missing sealed-card
   affixes, and use Fadhgridh consistently for the castle and card.
-- Resolve pet dialogue and random-option wording reviews, correct a duplicated
+- Update pet dialogue and random-option translations, correct a duplicated
   pet line, and use an ASCII crying emoticon in client messages.
-- Standardize file documentation and consolidate shared translation guidance.
 
 ## 0.0.17
 

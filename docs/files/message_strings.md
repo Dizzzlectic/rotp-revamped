@@ -34,7 +34,8 @@ incomplete markers in kRO.
 Addresses, symbols, formatting placeholders, color codes, bold and HTML tags,
 and escaped line breaks remain intact. Message fragments retain the spacing
 needed when joined to other text. Faint equipment slot labels are part of
-`basic_interface/equipwin_bg.bmp` and require separate artwork translation.
+`basic_interface/equipwin_bg.bmp`; see
+[equipment artwork](equipment_artwork.md) for that override.
 
 Each row contains a message identifier and its text, with no header. The client
 looks up messages by zero-based row position rather than the identifier column.

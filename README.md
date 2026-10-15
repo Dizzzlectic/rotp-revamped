@@ -45,11 +45,15 @@ rotp-revamped/
         ├── ba_frostjoke.txt    Frost Joke dialogue
         ├── dc_scream.txt       Scream dialogue
         ├── pettalktable.xml    pet dialogue
+        ├── texture/ui/basic_interface/
+        │   └── equipwin_bg.bmp  equipment background labels
         └── luafiles514/lua files/
             ├── SignBoardList.lub  map signboard text
-            └── datainfo/
-                ├── addrandomoptionnametable.lub  equipment random options
-                └── titletable.lub  character title names
+            ├── datainfo/
+            │   ├── addrandomoptionnametable.lub  equipment random options
+            │   └── titletable.lub  character title names
+            └── skillinfoz/
+                └── skillinfolist.lub  skill names
 ```
 
 Add translated files under `src/System/` and `src/data/` as needed. Item tables
